@@ -1,0 +1,27 @@
+INT	STRING	STRING	STRING	STRING	STRING	STRING
+ID	特效ID	音效ID	特效的绑定点	预留1	预留2	效果说明
+0	all_bj02		身体受击点			物理伤害
+1	all_bj02		身体受击点			魔法伤害
+2	all_bj04		身体受击点			冰伤害
+3	all_bj06		身体受击点			火伤害
+4	all_bj05		身体受击点			电伤害
+5	all_bj01		身体受击点			毒伤害
+6	all_bj03		身体受击点			直接减HP
+7	all_bj08		身体受击点			直接减MP
+8	all_bj09		身体受击点			直接减SP
+9	all_bj00		身体受击点			空
+10	all_jiaxie	magic_restore.wav	身体受击点			加血
+11	all_jiamo	magic_restore.wav	身体受击点			加魔
+12	all_jianu	magic_restore.wav	身体受击点			加怒
+13	all_jiaqiang	magic_restore.wav	身体受击点			加强
+14	all_jiechuzhuangtai	magic_restore.wav	身体受击点			解控
+15	yanhuo02		前置特效点			烟花(2)
+16	yanhuo03	yanhuo03.wav	前置特效点			烟花(3)
+17	yanhuo04	yanhuo04.wav	前置特效点			烟花(4)
+18	g01_buff24		身体受击点			复活
+19	g01_buff23		身体受击点			净化
+20	g01_buff25		头顶状态点			驱逐
+21	g01_zdo_danfengchaoyang		身体受击点			爆炸
+22	npc_buff_24		身体受击点			开膛
+23	g01_zdo_eguangmanying		身体受击点			恶贯满盈爆炸
+24	g01_dd_jingangfumoquan_02		脚下光圈点			任务特效

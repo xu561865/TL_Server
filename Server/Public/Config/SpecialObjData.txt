@@ -1,0 +1,63 @@
+INT	STRING	STRING	INT	INT	INT	INT	INT	STRING	STRING	STRING	STRING	STRING	STRING	INT	INT	INT	STRING	INT	INT	FLOAT	FLOAT	INT	INT	INT	INT	INT	INT	STRING	INT	STRING	INT	STRING	INT	STRING	INT	STRING	INT	STRING	INT	STRING	INT	STRING	INT	STRING	INT	STRING	INT	STRING	INT	STRING	INT	STRING	INT	STRING	INT	STRING	INT	STRING	INT	STRING
+ID	名称	ToolTips	类别	逻辑ID	隐形级别	陷阱专用标记	可激活次数	生存期持续特效	生存期持续音效	激发特效	激发音效	死亡特效	死亡音效	预留	预留	预留	 子弹ID	持续时间	激活或触发时间间隔	触发半径	影响半径	影响个体数目	预留	预留	预留	预留	预留	参数说明	参数值	参数说明	参数值	参数说明	参数值	参数说明	参数值	参数说明	参数值	参数说明	参数值	参数说明	参数值	参数说明	参数值	参数说明	参数值	参数说明	参数值	参数说明	参数值	参数说明	参数值	参数说明	参数值	参数说明	参数值	参数说明	参数值	参数说明	参数值	详细说明(内部使用)
+101	八门金锁	八门金锁	1	0	10	2	1	g01_bamenjinsuo		g01_zdo_bamenjinsuo								15000	500	2	2	3						效果1	1987	效果2	-1	效果3几率	-1	效果3	-1																									
+102	八门金锁	八门金锁	1	0	20	2	1	g01_bamenjinsuo		g01_zdo_bamenjinsuo								15000	500	2	2	3						效果1	1988	效果2	-1	效果3几率	-1	效果3	-1																									
+103	八门金锁	八门金锁	1	0	30	2	1	g01_bamenjinsuo		g01_zdo_bamenjinsuo								15000	500	2	2	3						效果1	1989	效果2	-1	效果3几率	-1	效果3	-1																									
+104	八门金锁	八门金锁	1	0	40	2	1	g01_bamenjinsuo		g01_zdo_bamenjinsuo								15000	500	2	2	3						效果1	1990	效果2	-1	效果3几率	-1	效果3	-1																									
+105	八门金锁	八门金锁	1	0	50	2	1	g01_bamenjinsuo		g01_zdo_bamenjinsuo								15000	500	2	2	3						效果1	1991	效果2	-1	效果3几率	-1	效果3	-1																									
+106	八门金锁	八门金锁	1	0	60	2	1	g01_bamenjinsuo		g01_zdo_bamenjinsuo								15000	500	2	2	3						效果1	1992	效果2	-1	效果3几率	-1	效果3	-1																									
+107	八门金锁	八门金锁	1	0	70	2	1	g01_bamenjinsuo		g01_zdo_bamenjinsuo								15000	500	2	2	3						效果1	1993	效果2	-1	效果3几率	-1	效果3	-1																									
+108	八门金锁	八门金锁	1	0	80	2	1	g01_bamenjinsuo		g01_zdo_bamenjinsuo								15000	500	2	2	3						效果1	1994	效果2	-1	效果3几率	-1	效果3	-1																									
+109	八门金锁	八门金锁	1	0	90	2	1	g01_bamenjinsuo		g01_zdo_bamenjinsuo								15000	500	2	2	3						效果1	1995	效果2	-1	效果3几率	-1	效果3	-1																									
+110	八门金锁	八门金锁	1	0	100	2	1	g01_bamenjinsuo		g01_zdo_bamenjinsuo								15000	500	2	2	3						效果1	1996	效果2	-1	效果3几率	-1	效果3	-1																									
+111	八门金锁	八门金锁	1	0	110	2	1	g01_bamenjinsuo		g01_zdo_bamenjinsuo								15000	500	2	2	3						效果1	1997	效果2	-1	效果3几率	-1	效果3	-1																									
+112	八门金锁	八门金锁	1	0	120	2	1	g01_bamenjinsuo		g01_zdo_bamenjinsuo								15000	500	2	2	3						效果1	1998	效果2	-1	效果3几率	-1	效果3	-1																									
+201	一字长蛇	一字长蛇	2	0	10	2	1	g01_yizichangshe		g01_zdo_yizichangshe								15000	500	2	2	3						效果1	1999	效果2	-1	效果3几率	-1	效果3	-1																									
+202	一字长蛇	一字长蛇	2	0	20	2	1	g01_yizichangshe		g01_zdo_yizichangshe								15000	500	2	2	3						效果1	2000	效果2	-1	效果3几率	-1	效果3	-1																									
+203	一字长蛇	一字长蛇	2	0	30	2	1	g01_yizichangshe		g01_zdo_yizichangshe								15000	500	2	2	3						效果1	2001	效果2	-1	效果3几率	-1	效果3	-1
+204	一字长蛇	一字长蛇	2	0	40	2	1	g01_yizichangshe		g01_zdo_yizichangshe								15000	500	2	2	3						效果1	2002	效果2	-1	效果3几率	-1	效果3	-1
+205	一字长蛇	一字长蛇	2	0	50	2	1	g01_yizichangshe		g01_zdo_yizichangshe								15000	500	2	2	3						效果1	2003	效果2	-1	效果3几率	-1	效果3	-1
+206	一字长蛇	一字长蛇	2	0	60	2	1	g01_yizichangshe		g01_zdo_yizichangshe								15000	500	2	2	3						效果1	2004	效果2	-1	效果3几率	-1	效果3	-1
+207	一字长蛇	一字长蛇	2	0	70	2	1	g01_yizichangshe		g01_zdo_yizichangshe								15000	500	2	2	3						效果1	2005	效果2	-1	效果3几率	-1	效果3	-1
+208	一字长蛇	一字长蛇	2	0	80	2	1	g01_yizichangshe		g01_zdo_yizichangshe								15000	500	2	2	3						效果1	2006	效果2	-1	效果3几率	-1	效果3	-1
+209	一字长蛇	一字长蛇	2	0	90	2	1	g01_yizichangshe		g01_zdo_yizichangshe								15000	500	2	2	3						效果1	2007	效果2	-1	效果3几率	-1	效果3	-1
+210	一字长蛇	一字长蛇	2	0	100	2	1	g01_yizichangshe		g01_zdo_yizichangshe								15000	500	2	2	3						效果1	2008	效果2	-1	效果3几率	-1	效果3	-1
+211	一字长蛇	一字长蛇	2	0	110	2	1	g01_yizichangshe		g01_zdo_yizichangshe								15000	500	2	2	3						效果1	2009	效果2	-1	效果3几率	-1	效果3	-1
+212	一字长蛇	一字长蛇	2	0	120	2	1	g01_yizichangshe		g01_zdo_yizichangshe								15000	500	2	2	3						效果1	2010	效果2	-1	效果3几率	-1	效果3	-1
+301	太乙三才	太乙三才	3	0	10	6	1	g01_taiyisancai		g01_zdo_taiyisancai								15000	500	2	4	4						效果1	1987	效果2	-1	效果3几率	10	效果3	2011
+302	太乙三才	太乙三才	3	0	20	6	1	g01_taiyisancai		g01_zdo_taiyisancai								15000	500	2	4	4						效果1	1988	效果2	-1	效果3几率	10	效果3	2011
+303	太乙三才	太乙三才	3	0	30	6	1	g01_taiyisancai		g01_zdo_taiyisancai								15000	500	2	4	4						效果1	1989	效果2	-1	效果3几率	10	效果3	2011
+304	太乙三才	太乙三才	3	0	40	6	1	g01_taiyisancai		g01_zdo_taiyisancai								15000	500	2	4	4						效果1	1990	效果2	-1	效果3几率	10	效果3	2011
+305	太乙三才	太乙三才	3	0	50	6	1	g01_taiyisancai		g01_zdo_taiyisancai								15000	500	2	4	4						效果1	1991	效果2	-1	效果3几率	10	效果3	2011
+306	太乙三才	太乙三才	3	0	60	6	1	g01_taiyisancai		g01_zdo_taiyisancai								15000	500	2	4	4						效果1	1992	效果2	-1	效果3几率	10	效果3	2011
+307	太乙三才	太乙三才	3	0	70	6	1	g01_taiyisancai		g01_zdo_taiyisancai								15000	500	2	4	4						效果1	1993	效果2	-1	效果3几率	10	效果3	2011
+308	太乙三才	太乙三才	3	0	80	6	1	g01_taiyisancai		g01_zdo_taiyisancai								15000	500	2	4	4						效果1	1994	效果2	-1	效果3几率	10	效果3	2011
+309	太乙三才	太乙三才	3	0	90	6	1	g01_taiyisancai		g01_zdo_taiyisancai								15000	500	2	4	4						效果1	1995	效果2	-1	效果3几率	10	效果3	2011
+310	太乙三才	太乙三才	3	0	100	6	1	g01_taiyisancai		g01_zdo_taiyisancai								15000	500	2	4	4						效果1	1996	效果2	-1	效果3几率	10	效果3	2011
+311	太乙三才	太乙三才	3	0	110	6	1	g01_taiyisancai		g01_zdo_taiyisancai								15000	500	2	4	4						效果1	1997	效果2	-1	效果3几率	10	效果3	2011
+312	太乙三才	太乙三才	3	0	120	6	1	g01_taiyisancai		g01_zdo_taiyisancai								15000	500	2	4	4						效果1	1998	效果2	-1	效果3几率	10	效果3	2011
+401	八阵图	八阵图	4	0	10	1	1	g01_bazhentu		g01_zdo_bazhentu								10000	500	0	6	5						效果1	2012	效果2	2013	效果3几率	-1	效果3	-1
+402	八阵图	八阵图	4	0	20	1	1	g01_bazhentu		g01_zdo_bazhentu								10000	500	0	6	5						效果1	2012	效果2	2014	效果3几率	-1	效果3	-1
+403	八阵图	八阵图	4	0	30	1	1	g01_bazhentu		g01_zdo_bazhentu								10000	500	0	6	5						效果1	2012	效果2	2015	效果3几率	-1	效果3	-1
+404	八阵图	八阵图	4	0	40	1	1	g01_bazhentu		g01_zdo_bazhentu								10000	500	0	6	5						效果1	2012	效果2	2016	效果3几率	-1	效果3	-1
+405	八阵图	八阵图	4	0	50	1	1	g01_bazhentu		g01_zdo_bazhentu								10000	500	0	6	5						效果1	2012	效果2	2017	效果3几率	-1	效果3	-1
+406	八阵图	八阵图	4	0	60	1	1	g01_bazhentu		g01_zdo_bazhentu								10000	500	0	6	5						效果1	2012	效果2	2018	效果3几率	-1	效果3	-1
+407	八阵图	八阵图	4	0	70	1	1	g01_bazhentu		g01_zdo_bazhentu								10000	500	0	6	5						效果1	2012	效果2	2019	效果3几率	-1	效果3	-1
+408	八阵图	八阵图	4	0	80	1	1	g01_bazhentu		g01_zdo_bazhentu								10000	500	0	6	5						效果1	2012	效果2	2020	效果3几率	-1	效果3	-1
+409	八阵图	八阵图	4	0	90	1	1	g01_bazhentu		g01_zdo_bazhentu								10000	500	0	6	5						效果1	2012	效果2	2021	效果3几率	-1	效果3	-1
+410	八阵图	八阵图	4	0	100	1	1	g01_bazhentu		g01_zdo_bazhentu								10000	500	0	6	5						效果1	2012	效果2	2022	效果3几率	-1	效果3	-1
+411	八阵图	八阵图	4	0	110	1	1	g01_bazhentu		g01_zdo_bazhentu								10000	500	0	6	5						效果1	2012	效果2	2023	效果3几率	-1	效果3	-1
+412	八阵图	八阵图	4	0	120	1	1	g01_bazhentu		g01_zdo_bazhentu								10000	500	0	6	5						效果1	2012	效果2	2024	效果3几率	-1	效果3	-1
+501	少商剑	少商剑	-1	0	10	1	1			g01_zdo_shaoshangjian								1500	500	0	6	6						效果1	1734	效果2	1746	效果3几率	-1	效果3	-1
+502	少商剑	少商剑	-1	0	10	1	1			g01_zdo_shaoshangjian								1500	500	0	6	6						效果1	1735	效果2	1746	效果3几率	-1	效果3	-1
+503	少商剑	少商剑	-1	0	10	1	1			g01_zdo_shaoshangjian								1500	500	0	6	6						效果1	1736	效果2	1746	效果3几率	-1	效果3	-1
+504	少商剑	少商剑	-1	0	10	1	1			g01_zdo_shaoshangjian								1500	500	0	6	6						效果1	1737	效果2	1746	效果3几率	-1	效果3	-1
+505	少商剑	少商剑	-1	0	10	1	1			g01_zdo_shaoshangjian								1500	500	0	6	6						效果1	1738	效果2	1746	效果3几率	-1	效果3	-1
+506	少商剑	少商剑	-1	0	10	1	1			g01_zdo_shaoshangjian								1500	500	0	6	6						效果1	1739	效果2	1746	效果3几率	-1	效果3	-1
+507	少商剑	少商剑	-1	0	10	1	1			g01_zdo_shaoshangjian								1500	500	0	6	6						效果1	1740	效果2	1746	效果3几率	-1	效果3	-1
+508	少商剑	少商剑	-1	0	10	1	1			g01_zdo_shaoshangjian								1500	500	0	6	6						效果1	1741	效果2	1746	效果3几率	-1	效果3	-1
+509	少商剑	少商剑	-1	0	10	1	1			g01_zdo_shaoshangjian								1500	500	0	6	6						效果1	1742	效果2	1746	效果3几率	-1	效果3	-1
+510	少商剑	少商剑	-1	0	10	1	1			g01_zdo_shaoshangjian								1500	500	0	6	6						效果1	1743	效果2	1746	效果3几率	-1	效果3	-1
+511	少商剑	少商剑	-1	0	10	1	1			g01_zdo_shaoshangjian								1500	500	0	6	6						效果1	1744	效果2	1746	效果3几率	-1	效果3	-1
+512	少商剑	少商剑	-1	0	10	1	1			g01_zdo_shaoshangjian								1500	500	0	6	6						效果1	1745	效果2	1746	效果3几率	-1	效果3	-1
+601	初级陷阱	初级陷阱	-1	0	10	2	1	g01_bamenjinsuo		g01_zdo_bamenjinsuo								15000	500	2	2	1						效果1	110	效果2	-1	效果3几率	-1	效果3	-1

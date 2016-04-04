@@ -1,0 +1,4 @@
+INT	INT	INT	INT	STRING	STRING
+ID	CityID	BuildingID	InitialLevel	GfxPosition	GfxOrientation
+1	55	2	0	-1570.1 0 -937.604	1 0 0 0
+2	55	1	0	-223.764 0 -809.541	1 0 0 0

@@ -1,0 +1,8 @@
+[System]
+navmapname=yanzi.nav
+monsterfile=yanzi_monster.ini
+patrolpoint=yanzi_patrolpoint.ini
+growpointdata=yanzi_growpoint.txt
+growpointsetup=yanzi_growpointsetup.txt
+eventfile=yanzi_area.ini
+petfile=yanzi_pet.ini

@@ -1,0 +1,3 @@
+INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT
+惩罚编号	罚金	罚物1	数量1	罚物2	数量2	罚物3	数量3	经验	降级	标志任务完成
+0	100	10104000	1	-1	0	-1	0	100	0	0

@@ -1,0 +1,8 @@
+[System]
+navmapname=yipin.nav
+monsterfile=yipin_monster.ini
+patrolpoint=yipin_patrolpoint.ini
+growpointdata=yipin_growpoint.txt
+growpointsetup=yipin_growpointsetup.txt
+eventfile=yipin_area.ini
+petfile=yipin_pet.ini

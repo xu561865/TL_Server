@@ -1,0 +1,2 @@
+INT	INT	STRING	INT
+类型	数量	生成函数	种子补充的间隔时间

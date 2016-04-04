@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Scene formatVersion="0.1.0" name="StandardTemplate">
+
+	<Author>XXX</Author>
+	
+  <Copyright>XXX</Copyright>
+
+  <Description>This is a template scene file for wx editor</Description>
+
+  <Terrain filename="WXTerrainTemplate.xml"/>
+
+</Scene>

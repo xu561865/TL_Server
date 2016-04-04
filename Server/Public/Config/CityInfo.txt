@@ -1,0 +1,4 @@
+INT	STRING
+入口场景ID	城市场景文件名
+0	suzhou.scn
+1	city0.scn

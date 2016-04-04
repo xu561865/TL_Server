@@ -1,0 +1,4891 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Scene formatVersion="0.1.1" name="mingjiao">
+
+  <Terrain filename="mingjiao.Terrain"/>
+
+  <Object name="#FairyEnviroment" type="Enviroment">
+    <Property name="ambient" value="0.133333 0.058824 0.058824"/>
+    <Property name="fog.mode" value="linear"/>
+    <Property name="fog.colour" value="0.494118 0.101961 0.054902"/>
+    <Property name="fog.linear start" value="2800"/>
+    <Property name="fog.linear end" value="4400"/>
+  </Object>
+
+  <Object name="#FairyMainLightOne" type="Light">
+    <Property name="type" value="directional"/>
+    <Property name="diffuse" value="0.12549 0.101961 0.34902"/>
+    <Property name="specular" value="0.3 0.3 0.3"/>
+    <Property name="direction" value="-1 -1 -1"/>
+  </Object>
+
+  <Object name="#FairyMainLightTwo" type="Light">
+    <Property name="type" value="directional"/>
+    <Property name="diffuse" value="0.305882 0.121569 0.14902"/>
+    <Property name="direction" value="1 -1 -1"/>
+  </Object>
+
+  <Object name="#FairySkyDome" type="SkyDome">
+    <Property name="material" value="CloudySky"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教主建筑.mesh"/>
+    <Property name="position" value="222.056 391 -1211.84"/>
+    <Property name="orientation" value="0.706509 0 0.707702 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子2.mesh"/>
+    <Property name="position" value="191.729 75 -994.47"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子2.mesh"/>
+    <Property name="position" value="202.634 73 1307.12"/>
+    <Property name="orientation" value="1.03395e-007 0 1 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子2.mesh"/>
+    <Property name="position" value="1711.75 -129 198.942"/>
+    <Property name="orientation" value="-0.707107 0 0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="1400.59 149 198.974"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石武士.mesh"/>
+    <Property name="position" value="574.889 360 1518.62"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石武士2.mesh"/>
+    <Property name="position" value="-184.29 360 1487.38"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石像.mesh"/>
+    <Property name="position" value="-1842.54 184.181 1982.65"/>
+    <Property name="orientation" value="0.993507 0 -0.113773 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="-646.621 191.035 1366.03"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="-1833.9 -147.135 1998.32"/>
+    <Property name="orientation" value="-0.00382194 0 -0.999991 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="-872.723 181.108 1049.53"/>
+    <Property name="orientation" value="0.0324803 0 0.999472 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="1050.13 170.982 1230.5"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="-865.301 178.797 -757.898"/>
+    <Property name="orientation" value="0.00943436 0 0.999955 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="-647.14 182.211 -1068.4"/>
+    <Property name="orientation" value="0.713889 0 0.700258 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="1258.78 204.891 1063.85"/>
+    <Property name="orientation" value="0.999909 0 -0.0133763 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="1262.48 191.075 -750.271"/>
+    <Property name="orientation" value="0.999909 0 -0.0133763 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="1057.27 185.278 -1067.18"/>
+    <Property name="orientation" value="0.70168 0 0.712489 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="-2402.23 151 2086.26"/>
+    <Property name="orientation" value="1 0 0.000680471 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教圣火坛.mesh"/>
+    <Property name="position" value="201.031 295 201.667"/>
+    <Property name="orientation" value="0.997079 0 -0.0763634 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-415.215 400 -285.651"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-414.865 400 62.4672"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-414.426 400 397.408"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-414.422 400 718.024"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="811.858 400 -287.196"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="437.35 263.108 1515.98"/>
+    <Property name="orientation" value="0.0324803 0 0.999472 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="812.208 400 60.922"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="812.651 400 716.47"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="812.647 400 395.863"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="1498.61 142.775 3200.65"/>
+    <Property name="orientation" value="0.706148 0 0.708065 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="198.595 211.955 766.66"/>
+    <Property name="orientation" value="0.715165 0 0.69895 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="-369.928 219.572 200.526"/>
+    <Property name="orientation" value="0.999909 0 -0.0133763 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="199.803 212.466 -368.744"/>
+    <Property name="orientation" value="0.707105 0 -0.707105 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="769.845 219.071 200.629"/>
+    <Property name="orientation" value="-0.00573275 0 0.999981 0"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="198.717 497 206.77"/>
+  </Object>
+
+  <Object type="TerrainLiquid">
+    <Property name="material" value="岩浆1"/>
+    <Property name="position" value="736.844 75.0655 -254.776"/>
+    <Property name="texture scale" value="0.3"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="-1934.03 -141.717 -1657.91"/>
+    <Property name="orientation" value="-0.00382194 0 -0.999991 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="-2408.36 146.418 -1708.97"/>
+    <Property name="orientation" value="0.999928 0 -0.0120211 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子2.mesh"/>
+    <Property name="position" value="-1362.2 -125 198.462"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石像.mesh"/>
+    <Property name="position" value="-1923.27 186.292 -1642.28"/>
+    <Property name="orientation" value="0.756673 0 -0.653792 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="2630.45 -121.578 -1648.15"/>
+    <Property name="orientation" value="-0.71497 0 -0.699152 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="1551.12 148 -2798.8"/>
+    <Property name="orientation" value="0.70806 0.00269881 -0.706143 0.00270614"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="2573.73 -128 2093.64"/>
+    <Property name="orientation" value="-0.999996 0 -0.0014012 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="3006.63 146.741 2094.66"/>
+    <Property name="orientation" value="-0.0100681 0 0.99995 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石像.mesh"/>
+    <Property name="position" value="2549.93 201 2085.15"/>
+    <Property name="orientation" value="-0.645646 0 -0.763631 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="1045.92 184.153 1369.46"/>
+    <Property name="orientation" value="0.731042 0 -0.682329 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="-1002.14 145.479 181.097"/>
+    <Property name="orientation" value="-0.00326625 0 0.999995 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子2.mesh"/>
+    <Property name="position" value="210.521 -75 -4109.18"/>
+    <Property name="orientation" value="0.00764362 0 0.99997 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石武士.mesh"/>
+    <Property name="position" value="584.221 189.326 -3941.99"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石武士2.mesh"/>
+    <Property name="position" value="-177.886 185 -3971.14"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-216.495 242.619 -4419.02"/>
+    <Property name="orientation" value="0.708456 0 0.705754 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="640.27 244.146 -4418.94"/>
+    <Property name="orientation" value="0.708456 0 0.705754 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯2.mesh"/>
+    <Property name="position" value="725.193 234 -3716.05"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="726.462 295 -3715.06"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯2.mesh"/>
+    <Property name="position" value="-318.297 235 -3740.23"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-317.028 296 -3739.24"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯2.mesh"/>
+    <Property name="position" value="56.0033 398 -1019.72"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="57.2723 459 -1018.73"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯2.mesh"/>
+    <Property name="position" value="364.934 398 -1023.52"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="366.203 459 -1022.53"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-320.472 444 1710.56"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯2.mesh"/>
+    <Property name="position" value="-321.741 383 1709.57"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="725.605 444 1712.49"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯2.mesh"/>
+    <Property name="position" value="724.336 383 1711.5"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-1559.09 463 3451.28"/>
+    <Property name="orientation" value="0.711148 0 0.703041 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-1691.69 400 3450.48"/>
+    <Property name="orientation" value="0.711148 0 0.703041 0"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-1817.61 463 3447.6"/>
+    <Property name="orientation" value="0.711148 0 0.703041 0"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="2240.46 455.183 3462.97"/>
+    <Property name="orientation" value="0.697584 0 0.716501 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="2107.92 392.82 3467.23"/>
+    <Property name="orientation" value="0.697584 0 0.716501 0"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="1981.98 455.294 3469.16"/>
+    <Property name="orientation" value="0.697584 0 0.716501 0"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="3277.7 460.187 1650.02"/>
+    <Property name="orientation" value="0.697584 0 0.716501 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="3403.64 397.713 1648.09"/>
+    <Property name="orientation" value="0.697584 0 0.716501 0"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="3536.18 460.076 1643.83"/>
+    <Property name="orientation" value="0.697584 0 0.716501 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="-1153.6 150 -2798.16"/>
+    <Property name="orientation" value="0.707109 0 -0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-345.389 301.998 -4421.7"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-95.5624 311.998 -4414.87"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="508.879 317.998 -4412.04"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="766.459 314.998 -4420.6"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-2580.49 461.699 -1249.55"/>
+    <Property name="orientation" value="0.709607 0 0.704595 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-2454.54 398.144 -1250.77"/>
+    <Property name="orientation" value="0.709607 0 0.704595 0"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-2321.98 459.839 -1254.28"/>
+    <Property name="orientation" value="0.709607 0 0.704595 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="2117.97 200.378 3333.51"/>
+    <Property name="orientation" value="0.70168 0 0.712489 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="-1643.55 194.296 3330.82"/>
+    <Property name="orientation" value="0.70168 0 0.712489 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="2049.59 199.042 -2962.26"/>
+    <Property name="orientation" value="0.731042 0 -0.682329 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="-1649.32 199.452 -2933.61"/>
+    <Property name="orientation" value="0.723171 0 -0.690666 0"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="1 0.811765 0.156863"/>
+    <Property name="position" value="-3902.51 767 4345.27"/>
+    <Property name="range" value="2000"/>
+    <Property name="attenuation.linear" value="0.001"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="0.333333 0.584314 0.14902"/>
+    <Property name="position" value="4220.01 915.248 4293.08"/>
+    <Property name="range" value="1500"/>
+    <Property name="attenuation.linear" value="0.001"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="3595.03 460.535 -1249.99"/>
+    <Property name="orientation" value="0.697584 0 0.716501 0"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="3336.55 460.541 -1243.8"/>
+    <Property name="orientation" value="0.697584 0 0.716501 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="3462.49 397.474 -1245.73"/>
+    <Property name="orientation" value="0.697584 0 0.716501 0"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-944.15 457.006 -3865.62"/>
+    <Property name="orientation" value="0.0155078 0 0.99988 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-938.81 393.939 -3991.46"/>
+    <Property name="orientation" value="0.0155078 0 0.99988 0"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-935.41 457 -4124.03"/>
+    <Property name="orientation" value="0.0155078 0 0.99988 0"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="1461.5 464.994 -4136.16"/>
+    <Property name="orientation" value="0.0155078 0 0.99988 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="1458.1 401.933 -4003.59"/>
+    <Property name="orientation" value="0.0155078 0 0.99988 0"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="1452.76 465 -3877.75"/>
+    <Property name="orientation" value="0.0155078 0 0.99988 0"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="0.984314 0.666667 0.2"/>
+    <Property name="position" value="-3961.12 624 2085.07"/>
+    <Property name="range" value="2000"/>
+    <Property name="attenuation.linear" value="0.001"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="0.984314 0.666667 0.2"/>
+    <Property name="position" value="-1306.99 704 4317.65"/>
+    <Property name="range" value="2000"/>
+    <Property name="attenuation.linear" value="0.001"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯链.mesh"/>
+    <Property name="position" value="-1267.42 -271 -582.369"/>
+    <Property name="orientation" value="0.992051 -0.125787 0 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯链.mesh"/>
+    <Property name="position" value="-1536.77 -256 -562.905"/>
+    <Property name="orientation" value="0.966935 -0.122602 -0.221808 -0.0281241"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="-384.114 109.551 3743.24"/>
+    <Property name="orientation" value="0.713889 0 0.700258 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="781.836 120.949 3747.9"/>
+    <Property name="orientation" value="0.713889 0 0.700258 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石柱.mesh"/>
+    <Property name="position" value="147.876 64 223.724"/>
+    <Property name="scale" value="1.3 1.3 1.3"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-414.398 471 -66.6744"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-423.323 471 190.773"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-417.903 471 270.5"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-418.008 481 517.809"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="805.038 475 526.536"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="805.302 475 269.948"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="804.006 475 190.719"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="805.158 475 -65.0021"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="-1103.4 147 3199.42"/>
+    <Property name="orientation" value="0.706148 0 0.708065 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="201.289 445 212.772"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="0.74902 0.258824 0.0156863"/>
+    <Property name="position" value="-1156.82 1000 -4107.31"/>
+    <Property name="direction" value="-0.0194647 -0.612649 0.373239"/>
+    <Property name="range" value="2000"/>
+    <Property name="attenuation.linear" value="0.001"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="0.74902 0.258824 0.0156863"/>
+    <Property name="position" value="-3886.51 800 -1683.09"/>
+    <Property name="direction" value="-0.0194647 -0.612649 0.373239"/>
+    <Property name="range" value="2000"/>
+    <Property name="attenuation.linear" value="0.001"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="0.74902 0.258824 0.0156863"/>
+    <Property name="position" value="-3936.37 838.762 -4145.45"/>
+    <Property name="direction" value="-0.0194647 -0.612649 0.373239"/>
+    <Property name="range" value="2000"/>
+    <Property name="attenuation.linear" value="0.001"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="0.105882 0.501961 0.937255"/>
+    <Property name="position" value="4074.59 1100 -4079.5"/>
+    <Property name="range" value="2000"/>
+    <Property name="attenuation.linear" value="0.001"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="0.815686 0.14902 0.00784314"/>
+    <Property name="position" value="3246.63 0 1111.22"/>
+    <Property name="range" value="2000"/>
+    <Property name="attenuation.linear" value="0.001"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="0.333333 0.584314 0.14902"/>
+    <Property name="position" value="4127.52 698.076 2300.54"/>
+    <Property name="range" value="1500"/>
+    <Property name="attenuation.linear" value="0.001"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="0.333333 0.584314 0.14902"/>
+    <Property name="position" value="1775 602.013 4063.73"/>
+    <Property name="range" value="3000"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="0.756863 0.141176 0.0745098"/>
+    <Property name="position" value="307.91 0 3006.5"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="0.756863 0.141176 0.0745098"/>
+    <Property name="position" value="-2346.24 21 434.847"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="0.756863 0.141176 0.0745098"/>
+    <Property name="position" value="444.042 -586.111 -2785.64"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="0.105882 0.501961 0.937255"/>
+    <Property name="position" value="4597.75 781.371 -1715.64"/>
+    <Property name="range" value="2000"/>
+    <Property name="attenuation.linear" value="0.001"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="0.815686 0.14902 0.00784314"/>
+    <Property name="position" value="2600 700 200"/>
+    <Property name="range" value="2000"/>
+    <Property name="attenuation.linear" value="0.001"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="0.494118 0.0941177 0.368627"/>
+    <Property name="position" value="-1127.78 0 -1863.86"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="-520 194.5 -4463"/>
+    <Property name="orientation" value="0.723171 0 -0.690666 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="1000 186.569 -4463"/>
+    <Property name="orientation" value="0.723171 0 -0.690666 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-495.648 -155.098 -4350.77"/>
+    <Property name="orientation" value="0.803488 0.581692 0.10261 -0.0742856"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="1004 -170.571 -4343"/>
+    <Property name="orientation" value="0.802845 0.586781 0.0649556 -0.0831853"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="2077.99 -157.151 -2845.12"/>
+    <Property name="orientation" value="0.803488 0.581692 0.10261 -0.0742856"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="1362 -140.429 -766"/>
+    <Property name="orientation" value="0.515688 0.373337 0.624651 -0.452221"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="1333 -142.161 1089"/>
+    <Property name="orientation" value="0.445737 0.307605 0.614642 -0.573523"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="1038 -148.4 1432"/>
+    <Property name="orientation" value="0.749305 0.612649 0.15934 -0.194511"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-651 -158.664 1424"/>
+    <Property name="orientation" value="0.749305 0.612649 0.15934 -0.194511"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-957 -173.63 1056"/>
+    <Property name="orientation" value="0.688054 0.60219 -0.336793 0.224815"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-937.677 -177.112 -757.795"/>
+    <Property name="orientation" value="0.688054 0.60219 -0.336793 0.224815"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-628.162 -172.034 -1146.75"/>
+    <Property name="orientation" value="0.105041 0.149949 -0.758825 0.625052"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="1076.7 -169.065 -1138.74"/>
+    <Property name="orientation" value="0.105041 0.149949 -0.758825 0.625052"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-296.71 -138.802 201.894"/>
+    <Property name="orientation" value="0.403514 0.283556 0.651173 -0.576864"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="179 -143.348 -300"/>
+    <Property name="orientation" value="0.761822 0.629568 0.0804946 -0.129697"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="703 -162.185 190"/>
+    <Property name="orientation" value="0.624618 0.557969 -0.443514 0.319136"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="221 -154.799 700"/>
+    <Property name="orientation" value="0.0438986 0.0993811 -0.764805 0.63506"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-375 -241.708 3664"/>
+    <Property name="orientation" value="0.136407 0.175731 -0.753822 0.618302"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="791 -223.081 3666"/>
+    <Property name="orientation" value="0.136407 0.175731 -0.753822 0.618302"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="2131 -143.475 3251"/>
+    <Property name="orientation" value="0.136407 0.175731 -0.753822 0.618302"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-1650 -158.335 3262"/>
+    <Property name="orientation" value="0.237665 0.258192 -0.728265 0.588656"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="0.756863 0.141176 0.0745098"/>
+    <Property name="position" value="5600 394.55 5600"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="0.756863 0.141176 0.0745098"/>
+    <Property name="position" value="1800 86 1200"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-1616.9 -147.936 -2817.14"/>
+    <Property name="orientation" value="0.803488 0.581692 0.10261 -0.0742856"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-653.265 36 1395.48"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-908.291 37 1044.22"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-915.483 34.8411 -761.566"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="1325.99 34.0246 1088.16"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-1641.72 37 3294.58"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-378.085 37.7584 3682.85"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="782.411 38.0888 3688.28"/>
+  </Object>
+
+  <Object type="Effect">
+    <Property name="effect name" value="chuansongdian"/>
+    <Property name="position" value="194.342 270.254 6273.86"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="3096 148.469 -1706"/>
+    <Property name="orientation" value="-0.00557004 0 -0.999984 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="200 400 6800"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="200 650 7300"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教门2.mesh"/>
+    <Property name="position" value="200 257.648 6356"/>
+    <Property name="orientation" value="-1.45286e-007 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="-600 400 6400"/>
+    <Property name="orientation" value="-8.47504e-008 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2中火.mesh"/>
+    <Property name="position" value="1000 450 6400"/>
+    <Property name="orientation" value="0.965926 0 0.258819 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2中火.mesh"/>
+    <Property name="position" value="-600 450 6400"/>
+    <Property name="orientation" value="0.991445 0 -0.130526 0"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="1000 900 6400"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-600 900 6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教门.mesh"/>
+    <Property name="position" value="200 250 -4523"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教门.mesh"/>
+    <Property name="position" value="2300 400 6427"/>
+    <Property name="orientation" value="-7.45058e-008 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教门.mesh"/>
+    <Property name="position" value="-1900 400 6418"/>
+    <Property name="orientation" value="2.01166e-007 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教门.mesh"/>
+    <Property name="position" value="-2900 400 6418"/>
+    <Property name="orientation" value="-7.44439e-009 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教门.mesh"/>
+    <Property name="position" value="3350 400 6418"/>
+    <Property name="orientation" value="-6.51926e-008 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教门.mesh"/>
+    <Property name="position" value="-1050 400 -6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教门.mesh"/>
+    <Property name="position" value="-2150 400 -6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教门.mesh"/>
+    <Property name="position" value="1550 400 -6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教门.mesh"/>
+    <Property name="position" value="2650 400 -6400"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="2633.23 69.742 1517.61"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="911.819 73.6046 -4418.59"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="-473.138 82.3827 -4420.8"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="-398.121 100.346 3738.49"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="814.1 123.791 3747.28"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="2125.37 109.006 3327.25"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="-663.514 79.9988 -1080"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="-875.381 100.522 -810.107"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="1274 103.989 -768.965"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="1261.02 155.927 1127.33"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="-865.543 138.411 1120.63"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="-866.217 136.716 -696.798"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="760.295 161.771 247.938"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="197.067 154.785 759.13"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="-360.475 162.851 213.133"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="206.192 130.876 -355.146"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="1044.22 107.993 1373"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="-655.316 106.399 1373.41"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="1030.11 118.976 -1070.26"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="type" value="directional"/>
+    <Property name="diffuse" value="0.517647 0.517647 0.517647"/>
+    <Property name="position" value="210.96 258.931 4145.02"/>
+    <Property name="direction" value="-0.8 -5 1.5"/>
+    <Property name="cast shadows" value="true"/>
+    <Property name="static light" value="true"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-627.798 36 -1115.3"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="2119 52.9624 3286"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="193 87 -316"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="725 81.24 199"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="200 79.588 719"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-320 80.891 200"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="1050 67 1400"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="2050 50.931 -2900"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-1636 52.028 -2891"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="1072 50.369 -1113"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="1320 60 -751"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-512 59.918 -4395"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="1001 49.464 -4392"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="-3736.52 80.872 815.729"/>
+    <Property name="orientation" value="0.999909 0 -0.0133763 0"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-3679 51.797 815"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="-3725 50.786 797.035"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-3637 -250.632 800"/>
+    <Property name="orientation" value="0.515688 0.373337 0.624651 -0.452221"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-3679 49.675 -490"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-3634 -250.754 -500"/>
+    <Property name="orientation" value="0.515688 0.373337 0.624651 -0.452221"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="-3733.52 80.75 -484.271"/>
+    <Property name="orientation" value="0.999909 0 -0.0133763 0"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="-3700 66.664 -491.965"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="2520 130.435 -764"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="-1651.56 86.0687 3321.52"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-2700 400 -6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-3800 400 -6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="-6400 400 -6400"/>
+    <Property name="orientation" value="-1.75692e-007 0 -1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 -4400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 -3900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-1600 400 -6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-4900 400 -6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-507 400 -6400"/>
+    <Property name="scale" value="1.03 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="0 400 -6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="500 400 -6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="5400 400 -6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="2100 400 -6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-800 400 -4500"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-800 400 -3500"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-800 400 -3100"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="1300 400 -4000"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="1300 400 -3500"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="1300 400 -3100"/>
+    <Property name="orientation" value="-1.59036e-007 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="1007 400 -6400"/>
+    <Property name="scale" value="1.03 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="3200 400 -6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="6400 400 -6400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 -4400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 -3900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 -3400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 403.021 -2900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 -2400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="2300 400 -2200"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="2800 400 -2200"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="2300 400 -2700"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="2300 396.979 -3100"/>
+    <Property name="orientation" value="-1 0 -5.98324e-008 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="3200 400 -2200"/>
+    <Property name="orientation" value="1 0 1.30308e-007 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 -1900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 -900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 -400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 250"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 -3400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 -2900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 -2400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 -1900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 -1400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 250"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 1400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="-1900 400 -2200"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-2400 400 -2200"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-1900 400 -2700"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-400 398.895 6800"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-300 650 7500"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-300 650 7100"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-400 400 6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-800 400 4615"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-800 400 3715"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="700 650 7100"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="700 650 7500"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="800 400 6800"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="800 400 6400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="1200 400 3715"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="1800 400 6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-1400 400 6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-2400 400 6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="2800 400 6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-3400 400 6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-3900 400 6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-4400 400 6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="6400 400 6400"/>
+    <Property name="orientation" value="1 -4.71398e-008 0 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="4400 400 6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="3900 400 6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="-6400 400 6400"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 4400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 3900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 3400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 2900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 2400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 1900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 4400"/>
+    <Property name="orientation" value="0.707107 -2.47803e-009 0.707107 -2.47803e-009"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 3900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 3400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 2900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 2400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 1900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 1400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="-1900 400 2600"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-2400 400 2600"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-1900 400 3100"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-2800 400 2600"/>
+    <Property name="orientation" value="1.24985e-007 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-1900 400 3500"/>
+    <Property name="orientation" value="1.67073e-008 0 -1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="2400 398.076 2600"/>
+    <Property name="orientation" value="-2.43236e-008 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="2400 399.131 3500"/>
+    <Property name="orientation" value="-0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="3300 398.076 2600"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="2900 398.076 2600"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="2400 398.076 3100"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教大桥.mesh"/>
+    <Property name="position" value="200 57.7849 2621"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教大桥.mesh"/>
+    <Property name="position" value="191.683 65 -2318.56"/>
+    <Property name="orientation" value="0.701109 0 -0.713052 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教双桥.mesh"/>
+    <Property name="position" value="-3600 286 200"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教双桥.mesh"/>
+    <Property name="position" value="-2400 286 200"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教双桥.mesh"/>
+    <Property name="position" value="3900 262.352 200"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教双桥.mesh"/>
+    <Property name="position" value="2700 262.352 200"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="4900 400 6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="5900 400 6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="5400 400 6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="1300 396.178 6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="1000 400 6400"/>
+    <Property name="orientation" value="0.965926 0 0.258819 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="500 400 -4800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="0 400 -4800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="1007 400 -4800"/>
+    <Property name="scale" value="1.03 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-507 400 -4800"/>
+    <Property name="scale" value="1.03 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-5400 400 -6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-5900 400 -6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="4300 400 -6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="5900 400 -6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 -4900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 -5900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 -5400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 -5400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 -4900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 -5900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-4900 400 6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-5900 400 6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-5400 400 6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 4900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 5900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 5400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 5400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 5900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 4900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 -900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6400 400 -400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6400 400 -1400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-900 400 6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-800 400 5115"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-800 400 5615"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-800 400 6114"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="1200 400 4615"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="1200 400 5115"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="1200 400 5615"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="1200 400 6114"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-800 400 4115"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="1200 400 4115"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石武士2.mesh"/>
+    <Property name="position" value="900 260 4600"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石武士.mesh"/>
+    <Property name="position" value="-500 260 5800"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="1000 0 3800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="-600 0 3800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="1300 400 -4800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="-800 400 -4800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教门.mesh"/>
+    <Property name="position" value="3750 400 -6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教门.mesh"/>
+    <Property name="position" value="-3250 400 -6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教门.mesh"/>
+    <Property name="position" value="-4350 400 -6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教门.mesh"/>
+    <Property name="position" value="4850 400 -6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="6400 400 500"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="6400 400 0"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-6400 400 500"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-6400 400 0"/>
+    <Property name="orientation" value="-7.86691e-008 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2中火.mesh"/>
+    <Property name="position" value="-600 50 3800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2中火.mesh"/>
+    <Property name="position" value="1000 50 3800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2中火.mesh"/>
+    <Property name="position" value="-800 450 -4800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2中火.mesh"/>
+    <Property name="position" value="1300 450 -4800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石武士2.mesh"/>
+    <Property name="position" value="-500 260 4600"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石武士2.mesh"/>
+    <Property name="position" value="900 260 5800"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="3850 0 1500"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="3850 0 -1100"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="4600 148 1400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="4600 148 -1000"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="5300 400 -400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="5300 400 250"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="5300 400 -900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="5300 400 900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="5300 400 1400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="5300 400 1800"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="5300 400 -1300"/>
+    <Property name="orientation" value="1 0 -1.44916e-008 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-5300 400 900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-5300 400 250"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-5300 400 -400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-5300 400 1400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-5300 400 -900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-5300 400 -1300"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-5300 400 1800"/>
+    <Property name="orientation" value="-9.49511e-008 0 -1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="5300 400 500"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="5300 400 0"/>
+    <Property name="orientation" value="-4.83545e-008 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-5300 400 0"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-5300 400 500"/>
+    <Property name="orientation" value="1 0 1.4711e-008 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-800 400 -4000"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="1300 400 -4500"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-2800 400 -2200"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-1900 400 -3100"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="TerrainLiquid">
+    <Property name="material" value="岩浆1"/>
+    <Property name="position" value="-2300 210 -4800"/>
+    <Property name="texture scale" value="0.3"/>
+    <Property name="depth texture layer.enable" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="-2450 50 -4100"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="-3900 50 -2700"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石柱.mesh"/>
+    <Property name="position" value="-3900 300 -4100"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教圣火坛.mesh"/>
+    <Property name="position" value="-3900 500 -4100"/>
+  </Object>
+
+  <Object type="TerrainLiquid">
+    <Property name="material" value="岩浆1"/>
+    <Property name="position" value="-3500 350 -4100"/>
+    <Property name="texture scale" value="0.3"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="-3900 348 -2900"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-3900 720 -4100"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="-2700 348 -4100"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="-5100 348 -4100"/>
+    <Property name="orientation" value="8.62746e-008 0 -1 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="-3900 348 -5300"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="-3900 50 -5400"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="-5400 50 -4100"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="TerrainLiquid">
+    <Property name="material" value="岩浆1"/>
+    <Property name="position" value="2600 210 -4600"/>
+    <Property name="texture scale" value="0.3"/>
+    <Property name="depth texture layer.enable" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石柱.mesh"/>
+    <Property name="position" value="4100 300 -4100"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="0.105882 0.501961 0.937255"/>
+    <Property name="position" value="1900 800 -4400"/>
+    <Property name="range" value="2000"/>
+    <Property name="attenuation.linear" value="0.001"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="4100 715 -4100"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教圣火坛.mesh"/>
+    <Property name="position" value="4100 500 -4100"/>
+  </Object>
+
+  <Object type="TerrainLiquid">
+    <Property name="material" value="岩浆1"/>
+    <Property name="position" value="4500 350 -4100"/>
+    <Property name="texture scale" value="0.3"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="4100 50 -2700"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="4100 348 -5300"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="4100 348 -2900"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="5350 50 -4100"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="5300 348 -4100"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="2900 348 -4100"/>
+    <Property name="orientation" value="8.62746e-008 0 -1 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="4100 50 -5400"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="2800 50 -4100"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石武士2.mesh"/>
+    <Property name="position" value="-4000 200 -900"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石武士.mesh"/>
+    <Property name="position" value="-4000 200 1300"/>
+    <Property name="orientation" value="-7.39715e-008 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教圣火坛.mesh"/>
+    <Property name="position" value="4200 500 4300"/>
+    <Property name="orientation" value="0.997079 0 -0.0763634 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石柱.mesh"/>
+    <Property name="position" value="4200 300 4300"/>
+    <Property name="orientation" value="1 0 -1.36306e-007 0"/>
+  </Object>
+
+  <Object type="TerrainLiquid">
+    <Property name="material" value="岩浆1"/>
+    <Property name="position" value="2800 210 3600"/>
+    <Property name="texture scale" value="0.3"/>
+    <Property name="depth texture layer.enable" value="true"/>
+  </Object>
+
+  <Object type="TerrainLiquid">
+    <Property name="material" value="岩浆1"/>
+    <Property name="position" value="4000 350.253 3900"/>
+    <Property name="texture scale" value="0.3"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="4200 350 3200"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="5300 350 4300"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="4200 350 5400"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="3100 350 4300"/>
+    <Property name="orientation" value="8.62746e-008 0 -1 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="4200 52 3100"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="2900 52 4300"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="5350 52 4300"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="4200 52 5400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="4200 720 4300"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="-4600 148 1400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="-4600 148 -1000"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="-3500 2.17063 -1100"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="-3400 0 1500"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教圣火坛.mesh"/>
+    <Property name="position" value="-3900 480 4300"/>
+    <Property name="orientation" value="0.997079 0 -0.0763634 0"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-3900 700 4300"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石柱.mesh"/>
+    <Property name="position" value="-3900 300 4300"/>
+    <Property name="orientation" value="1 0 -1.36306e-007 0"/>
+  </Object>
+
+  <Object type="TerrainLiquid">
+    <Property name="material" value="岩浆1"/>
+    <Property name="position" value="-2500 210 4900"/>
+    <Property name="texture scale" value="0.3"/>
+    <Property name="depth texture layer.enable" value="true"/>
+  </Object>
+
+  <Object type="TerrainLiquid">
+    <Property name="material" value="岩浆1"/>
+    <Property name="position" value="-3600 350 4700"/>
+    <Property name="texture scale" value="0.3"/>
+    <Property name="depth texture layer.enable" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="5400 400 800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="5400 400 -300"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="6300 400 800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="6300 400 -300"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-5400 400 -300"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-5400 400 800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-6300 400 -300"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-6300 400 800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="-3900 348 3200"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="-2450 50 4300"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="-3900 348 5400"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="-2800 348 4300"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="-5400 50 4300"/>
+    <Property name="orientation" value="-5.37799e-008 0 1 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="-3900 50 3100"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="-3900 50 5400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="-5000 348 4300"/>
+    <Property name="orientation" value="8.62746e-008 0 -1 0"/>
+    <Property name="receive decals" value="true"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="0.756863 0.141176 0.0745098"/>
+    <Property name="position" value="-5400 500 5400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石武士.mesh"/>
+    <Property name="position" value="2700 -460 8200"/>
+    <Property name="orientation" value="-5.84234e-008 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石武士2.mesh"/>
+    <Property name="position" value="4900 -460 8200"/>
+    <Property name="orientation" value="-7.26155e-008 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="4900 -800 8200"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="0.756863 0.141176 0.0745098"/>
+    <Property name="position" value="3900 0 -7400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教主建筑.mesh"/>
+    <Property name="position" value="250 -487 -8800"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教双桥.mesh"/>
+    <Property name="position" value="250 -550 -7800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="-200 100 -6900"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="700 0 -6900"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯2.mesh"/>
+    <Property name="position" value="-2000 400 -5800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯2.mesh"/>
+    <Property name="position" value="-2000 400 -2300"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯2.mesh"/>
+    <Property name="position" value="-5800 400 -2300"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯2.mesh"/>
+    <Property name="position" value="-5800 400 -5800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯2.mesh"/>
+    <Property name="position" value="-5800 400 2700"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯2.mesh"/>
+    <Property name="position" value="-2000 400 2700"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯2.mesh"/>
+    <Property name="position" value="-2000 400 5800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯2.mesh"/>
+    <Property name="position" value="-5800 400 5800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯2.mesh"/>
+    <Property name="position" value="2500 400 5800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯2.mesh"/>
+    <Property name="position" value="5800 400 5800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯2.mesh"/>
+    <Property name="position" value="5800 400 2700"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯2.mesh"/>
+    <Property name="position" value="2500 400 2700"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯2.mesh"/>
+    <Property name="position" value="2400 401 -2300"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯2.mesh"/>
+    <Property name="position" value="5800 401 -2300"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯2.mesh"/>
+    <Property name="position" value="5800 401 -5800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯2.mesh"/>
+    <Property name="position" value="2400 401 -5800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-120 -200 -6978"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="620 -200 -6978"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="800 -1050 -8200"/>
+    <Property name="scale" value="0.8 1 0.8"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="250 -650 -9000"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+    <Property name="scale" value="1 0.5 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="250 -650 -8529"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+    <Property name="scale" value="0.5 0.5 0.5"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="1000 -400 -8527"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="-500 -400 -8527"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教主建筑.mesh"/>
+    <Property name="position" value="1100 -1123 -8500"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教主建筑.mesh"/>
+    <Property name="position" value="-600 -1123 -8500"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="2642.75 0 -776.664"/>
+    <Property name="orientation" value="0.601257 0.619346 -0.351676 0.362257"/>
+    <Property name="scale" value="5.4 5.4 5.4"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="900 50 -7700"/>
+    <Property name="orientation" value="0.696553 0.717509 1.012e-005 -9.78901e-006"/>
+    <Property name="scale" value="2 1 5"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-300 -350 -7900"/>
+    <Property name="orientation" value="0.696553 0.717509 1.012e-005 -9.78901e-006"/>
+    <Property name="scale" value="1.6 1 4"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="500 -200 -9400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="1000 -200 -9400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="0 -200 -9400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="1500 -200 -9400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-700 -149.11 -8038"/>
+    <Property name="orientation" value="0.696553 0.717509 1.012e-005 -9.78901e-006"/>
+    <Property name="scale" value="2.5 1 4.5"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="1400 -350 -8000"/>
+    <Property name="orientation" value="0.696553 0.717509 1.012e-005 -9.78901e-006"/>
+    <Property name="scale" value="1 1 4"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="-600 -1273 -8501"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+    <Property name="scale" value="1 0.5 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="1100 -1240.01 -8500"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+    <Property name="scale" value="1 0.5 1"/>
+  </Object>
+
+  <Object type="TerrainLiquid">
+    <Property name="material" value="岩浆1"/>
+    <Property name="position" value="-2100 -1600 -7400"/>
+    <Property name="texture scale" value="0.3"/>
+    <Property name="depth texture layer.enable" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="0 -350 -9100"/>
+    <Property name="orientation" value="-0.253778 0 0.967262 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="-97 -1631 -8100"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="1422 -847 -8501"/>
+    <Property name="scale" value="1 1.1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="-900 -650 -8500"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="-200 -1550 -8000"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台阶.mesh"/>
+    <Property name="position" value="-1100 -1250 -8300"/>
+    <Property name="orientation" value="-5.47175e-008 0 1 0"/>
+    <Property name="scale" value="0.5 0.5 0.5"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-940 -450 -8042"/>
+    <Property name="orientation" value="0.696553 0.717509 1.012e-005 -9.78901e-006"/>
+    <Property name="scale" value="0.8 1 4"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="-1300 -1589 -8300"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+    <Property name="scale" value="0.6 1 0.6"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石柱.mesh"/>
+    <Property name="position" value="-1300 -1650 -8300"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教双桥.mesh"/>
+    <Property name="position" value="-1400 -950 -9164"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2中火.mesh"/>
+    <Property name="position" value="1423 -762 -8501"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="1422 -307 -8500"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2中火.mesh"/>
+    <Property name="position" value="-100 -1593 -8100"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-100 -1139 -8100"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2中火.mesh"/>
+    <Property name="position" value="-200 -613 -8700"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="-200 -650 -8700"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-200 -165 -8700"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2中火.mesh"/>
+    <Property name="position" value="-900 -614 -8500"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-900 -162 -8500"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="-2200 -1225 -8900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+    <Property name="scale" value="0.5 0.5 0.5"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="-2200 -1606 -8600"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="-1900 -1450 -8920"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-1876 -1792 -8806"/>
+    <Property name="orientation" value="0.803488 0.581692 0.10261 -0.0742856"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="-1900 -1517 -8800"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="-2100 -1550 -8300"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-2200 -1131 -8600"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="0 137 -9100"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2中火.mesh"/>
+    <Property name="position" value="0 -311 -9100"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="800 -574 -8200"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-200 579 -6900"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2中火.mesh"/>
+    <Property name="position" value="-200 137 -6900"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2中火.mesh"/>
+    <Property name="position" value="700 36 -6900"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="700 480 -6900"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-1891 -1592 -8843"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="1000 -1550 -7898"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-2500 -350 -7900"/>
+    <Property name="orientation" value="0.696553 0.717509 1.012e-005 -9.78901e-006"/>
+    <Property name="scale" value="1.6 1 4"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石像.mesh"/>
+    <Property name="position" value="1100 -285 -9000"/>
+    <Property name="orientation" value="-0.00276263 0 -0.999996 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教主建筑.mesh"/>
+    <Property name="position" value="2800 -200 -8800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教双桥.mesh"/>
+    <Property name="position" value="3800 -550 -8800"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教圣火坛.mesh"/>
+    <Property name="position" value="4900 -650 -8700"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教双桥.mesh"/>
+    <Property name="position" value="6000 -550 -8800"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="3300 -650 -8300"/>
+    <Property name="scale" value="1 1.1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="2600 -184 -8327"/>
+    <Property name="scale" value="1 0.9 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="3100 -200 -9100"/>
+    <Property name="scale" value="1 1.2 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石柱.mesh"/>
+    <Property name="position" value="4900 -650 -8700"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石柱.mesh"/>
+    <Property name="position" value="4900 -1650 -8000"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教主建筑.mesh"/>
+    <Property name="position" value="2850 -656 -8100"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="2300 -1250 -8000"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2中火.mesh"/>
+    <Property name="position" value="2300 -1216 -8000"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="2300 -771 -8000"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2中火.mesh"/>
+    <Property name="position" value="3300 -567 -8300"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="3300 -120 -8300"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2中火.mesh"/>
+    <Property name="position" value="2600 -196 -8327"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="2600 250 -8327"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="4900 -450 -8700"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="3900 -1550 -8700"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="6000 -1550 -8700"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="1500 -1550 -7700"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="太湖/木人巷锁链.mesh"/>
+    <Property name="position" value="3100 -1750 -8500"/>
+    <Property name="orientation" value="0.709273 0 0.704934 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="太湖/木人巷锁链.mesh"/>
+    <Property name="position" value="6800 -1765 -8800"/>
+    <Property name="orientation" value="0.529803 0 0.84812 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="太湖/木人巷锁链.mesh"/>
+    <Property name="position" value="1821 382 -7640"/>
+    <Property name="orientation" value="0.978948 0 0.204109 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="太湖/木人巷锁链.mesh"/>
+    <Property name="position" value="-1500 396 -7726"/>
+    <Property name="orientation" value="-0.266121 0 0.963939 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="3400 -250 -7600"/>
+    <Property name="orientation" value="0.696553 0.717509 1.012e-005 -9.78901e-006"/>
+    <Property name="scale" value="2 1 5"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="3700 -550 -8000"/>
+    <Property name="orientation" value="0.696553 0.717509 1.012e-005 -9.78901e-006"/>
+    <Property name="scale" value="0.8 1 4"/>
+  </Object>
+
+  <Object type="Light">
+    <Property name="diffuse" value="0.756863 0.141176 0.0745098"/>
+    <Property name="position" value="-5200 700 -7100"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教双桥.mesh"/>
+    <Property name="position" value="-5700 -1450 -8400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教双桥.mesh"/>
+    <Property name="position" value="-4500 -1450 -8400"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="-6600 -1850 -8400"/>
+    <Property name="orientation" value="-1.03179e-007 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="-3600 -1850 -8400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="-5100 -1612 -7900"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="-5000 -1612 -8900"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教主建筑.mesh"/>
+    <Property name="position" value="-3400 -650 -7500"/>
+    <Property name="orientation" value="-0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="-3900 -650 -6900"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="-2900 -650 -6900"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-5700 -567.86 -8900"/>
+    <Property name="orientation" value="0.696553 0.717509 1.012e-005 -9.78901e-006"/>
+    <Property name="scale" value="3 2 4.5"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-4400 -512.52 -8800"/>
+    <Property name="orientation" value="0.696553 0.717509 1.012e-005 -9.78901e-006"/>
+    <Property name="scale" value="2.5 1 4.5"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="-5100 -1550 -7800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="-2700 -1850 -8400"/>
+    <Property name="orientation" value="5.89508e-008 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2中火.mesh"/>
+    <Property name="position" value="3850 35 1500"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2中火.mesh"/>
+    <Property name="position" value="3850 35 -1100"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="3850 485.021 -1100"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="3850 480 1500"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="1300 900 -4800"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-800 900 -4800"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-600 500 3800"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="1000 497.997 3800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2中火.mesh"/>
+    <Property name="position" value="-3400 35 1500"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2中火.mesh"/>
+    <Property name="position" value="-3500 35 -1100"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-3500 481 -1100"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-3400 483 1500"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="2700 -800 8200"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="3800 -800 8200"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="5700 -800 8200"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="1900 -800 8200"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="3200 -500 9214"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="2200 -500 9214"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="4400 -500 9214"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="5400 -500 9214"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="5403 -854.504 9134"/>
+    <Property name="orientation" value="0.136407 0.175731 -0.753822 0.618302"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="4412 -845.579 9132"/>
+    <Property name="orientation" value="0.136407 0.175731 -0.753822 0.618302"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="3212 -860.356 9132"/>
+    <Property name="orientation" value="0.136407 0.175731 -0.753822 0.618302"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="2212 -846.687 9132"/>
+    <Property name="orientation" value="0.136407 0.175731 -0.753822 0.618302"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="5400 -600 9100"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="4400 -600 9100"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="3200 -600 9100"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="2200 -600 9100"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="-5300 -600 9100"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-2097 -854.5 9134"/>
+    <Property name="orientation" value="0.136407 0.175731 -0.753822 0.618302"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="-3100 -600 9100"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="-2100 -500 9214"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="-3100 -500 9214"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="-2100 -600 9100"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石武士2.mesh"/>
+    <Property name="position" value="-2600 -460 8200"/>
+    <Property name="orientation" value="-7.26155e-008 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-4288 -860.36 9132"/>
+    <Property name="orientation" value="0.136407 0.175731 -0.753822 0.618302"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="-4300 -500 9214"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="-5300 -500 9214"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教石武士.mesh"/>
+    <Property name="position" value="-4800 -460 8200"/>
+    <Property name="orientation" value="-5.84234e-008 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-3088 -845.58 9132"/>
+    <Property name="orientation" value="0.136407 0.175731 -0.753822 0.618302"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="yanjiangwuqi"/>
+    <Property name="position" value="-4300 -600 9100"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-5288 -846.69 9132"/>
+    <Property name="orientation" value="0.136407 0.175731 -0.753822 0.618302"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="-2600 -800 8200"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教台子.mesh"/>
+    <Property name="position" value="-4800 -800 8200"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="TerrainLiquid">
+    <Property name="material" value="岩浆1"/>
+    <Property name="position" value="3700 -700 7500"/>
+    <Property name="texture scale" value="0.3"/>
+    <Property name="depth texture layer.enable" value="true"/>
+  </Object>
+
+  <Object type="TerrainLiquid">
+    <Property name="material" value="岩浆1"/>
+    <Property name="position" value="-3500 -700 7700"/>
+    <Property name="texture scale" value="0.3"/>
+    <Property name="depth texture layer.enable" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="-3700 -800 8300"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="-1600 -800 8300"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="-5700 -800 8300"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="5400 -680 9138"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="4400 -680 9138"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="3200 -680 9138"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="2200 -680 9138"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-2100 -700 9136"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-3100 -700 9136"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-4300 -700 9136"/>
+  </Object>
+
+  <Object type="ParticleSystem">
+    <Property name="particle system name" value="huoba01"/>
+    <Property name="position" value="-5300 -700 9136"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6700 400 -4500"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6700 400 -3700"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6700 400 1000"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6700 400 -500"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-7100 400 1000"/>
+    <Property name="orientation" value="-5.96046e-008 0 -1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-7100 400 -500"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-7100 400 -3700"/>
+    <Property name="orientation" value="-1.63913e-007 0 -1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-7100 400 -4500"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="TerrainLiquid">
+    <Property name="material" value="岩浆1"/>
+    <Property name="position" value="-7600 200 -199"/>
+    <Property name="texture scale" value="0.3"/>
+    <Property name="depth texture layer.enable" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-7100 400 -4100"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-7100 400 600"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-7100 400 -100"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6700 400 3900"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6700 400 4700"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-7100 400 3900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-7100 400 4700"/>
+    <Property name="orientation" value="-2.23517e-008 0 -1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-7100 400 4300"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-7600 400 -2800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-7600 400 -1400"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="-8000 400 -2800"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="-8000 400 -1400"/>
+    <Property name="orientation" value="-1.49012e-007 0 -1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-8000 400 -3300"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-8000 400 -3800"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-8000 400 -4900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-8000 400 -4400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="-8000 400 -5400"/>
+    <Property name="orientation" value="-1.78814e-007 0 -1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="-8000 400 -4100"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-8000 400 -900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-8000 400 -400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-8000 400 900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-8000 400 1400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="-8000 400 1900"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-8000 400 250"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="-8000 400 3000"/>
+    <Property name="orientation" value="-1.2666e-007 0 -1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-7600 400 1900"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-7600 400 3000"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="-8000 400 -100"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="-8000 400 600"/>
+    <Property name="orientation" value="-2.37487e-008 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-8000 400 3500"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-8000 400 4000"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-8000 400 4600"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-8000 400 5100"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="-8000 400 5600"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="-8000 400 4300"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="-7300 400 5600"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-7300 400 6100"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-7300 400 6500"/>
+    <Property name="orientation" value="-3.72529e-008 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-7700 400 5600"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="-7300 400 -5400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-7300 400 -5900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-7700 400 -5400"/>
+    <Property name="orientation" value="-5.96046e-008 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6700 400 4700"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6700 400 3900"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="7100 400 3900"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="7100 400 4700"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="7100 400 -4400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="7100 400 -3600"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6700 400 -3600"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6700 400 -4400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6700 400 -500"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6700 400 1000"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="7100 400 -500"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="7100 400 1000"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="7100 400 -4000"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="7100 400 -100"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="7100 400 600"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="7100 400 4300"/>
+  </Object>
+
+  <Object type="TerrainLiquid">
+    <Property name="material" value="岩浆1"/>
+    <Property name="position" value="7500 200 -800"/>
+    <Property name="texture scale" value="0.3"/>
+    <Property name="depth texture layer.enable" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="8000 400 1900"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="8000 400 5600"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="8000 400 3000"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="8000 400 -1400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="8000 400 -2700"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="8000 400 -5300"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="8000 400 -4800"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="8000 400 -4300"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="8000 400 -3700"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="8000 400 -3200"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="8000 400 -900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="8000 400 -400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="8000 400 1400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="8000 400 900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="8000 400 250"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="8000 400 3500"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="8000 400 4000"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="8000 400 5100"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="8000 400 4600"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="8000 400 4300"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="8000 400 600"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="8000 400 -100"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑2.mesh"/>
+    <Property name="position" value="8000 400 -4000"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="7600 400 -2700"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="7600 400 -1400"/>
+    <Property name="orientation" value="8.9407e-008 0 -1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="7600 400 1900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="7600 400 3000"/>
+    <Property name="orientation" value="-4.47035e-008 0 -1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="7300 400 5600"/>
+    <Property name="orientation" value="1.30385e-007 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="7300 400 -5300"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="7300 400 -5800"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="7300 400 6100"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="-7300 400 -6400"/>
+    <Property name="orientation" value="1.04308e-007 0 1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="-6800 400 -6400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6800 400 -6900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-6800 400 -7300"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-7200 400 -7300"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-7700 400 -7300"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-8200 400 -7300"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-7300 400 2800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-7300 400 2100"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-7300 400 -1600"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-7300 400 -2600"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="7300 400 2100"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="7300 400 2800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="7300 400 -2400"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="7300 400 -1700"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="7300 400 -6500"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="7700 400 -5300"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="7700 400 5600"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="7300 400 6500"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="2500 -950 -7813"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="3200 -950 -7813"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="2500 -1314.81 -7753"/>
+    <Property name="orientation" value="0.75327 0.646704 0.0762469 -0.0924659"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="3200 -1297.8 -7759"/>
+    <Property name="orientation" value="0.75327 0.646704 0.0762469 -0.0924659"/>
+    <Property name="scale" value="0.526316 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="2400 -200 -8402"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="1900 -200 -8400"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="1900 -200 -8900"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="1900 -200 -9300"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="2200 -650 -8200"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="1700 -650 -8200"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="3650 -650 -9200"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="4150 -650 -9200"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="4650 -650 -9200"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="5150 -650 -9200"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="5650 -650 -9200"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6150 -650 -9200"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-3000 600 -3600"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-3000 600 -4600"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-4800 600 -4600"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-4800 600 -3600"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-4400 600 -5000"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-3400 600 -5000"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-3400 600 -3200"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-4400 600 -3200"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="3200 600 -3600"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="3200 600 -4600"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="5000 600 -4600"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="5000 600 -3600"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="4600 600 -3200"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="3600 600 -3200"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="4600 600 -5000"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="3600 600 -5000"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-4700 600 3800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-4700 600 4800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-3100 600 4800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-3100 600 3800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-3400 600 3500"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-4400 600 3500"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-3400 600 5100"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="-4400 600 5100"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="5000 600 4800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="5000 600 3800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="3400 600 3800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="3400 600 4800"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="3700 600 5100"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="4700 600 5100"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="3700 600 3500"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教灯.mesh"/>
+    <Property name="position" value="4700 600 3500"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6900 400 6500"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="6500 400 6500"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6500 400 6900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6500 400 7400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6500 400 7900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6800 400 -7000"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑墙角.mesh"/>
+    <Property name="position" value="6800 400 -6500"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6800 400 -7500"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="6800 400 -8000"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="7300 400 -6100"/>
+    <Property name="orientation" value="1.15484e-007 0 -1 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-6500 400 6500"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6900 400 6500"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6500 400 6900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6500 400 7400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6500 400 7900"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教墙壁.mesh"/>
+    <Property name="position" value="-6500 400 8400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-2600 200 8900"/>
+    <Property name="orientation" value="-1.03712e-005 -1.00508e-005 0.696553 -0.717509"/>
+    <Property name="scale" value="2 1 5"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="-4800 200 8800"/>
+    <Property name="orientation" value="-1.07605e-005 -1.04494e-005 0.696553 -0.717509"/>
+    <Property name="scale" value="2 1 5"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="4900 -318.765 8800"/>
+    <Property name="orientation" value="-9.74536e-006 -9.40263e-006 0.696553 -0.717509"/>
+    <Property name="scale" value="2 1 5"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="岩浆/岩浆.mesh"/>
+    <Property name="position" value="2700 -400 8800"/>
+    <Property name="orientation" value="-1.13249e-005 -1.10269e-005 0.696553 -0.717509"/>
+    <Property name="scale" value="2 1 5"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="3300 450.352 -228"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="3300 450.352 628"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="-3000 460 -227"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教出水口.mesh"/>
+    <Property name="position" value="-3000 460 629"/>
+    <Property name="orientation" value="0.707107 0 -0.707107 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教双桥.mesh"/>
+    <Property name="position" value="2850 -950 -7400"/>
+    <Property name="orientation" value="-5.96046e-008 0 1 0"/>
+    <Property name="scale" value="0.6 1 1"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="太湖/木人巷锁链.mesh"/>
+    <Property name="position" value="2013 -1536 -8502"/>
+    <Property name="orientation" value="0.987297 0 -0.158858 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="太湖/木人巷锁链.mesh"/>
+    <Property name="position" value="5425 -789 8963"/>
+    <Property name="orientation" value="0.575808 0 0.817584 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="太湖/木人巷锁链.mesh"/>
+    <Property name="position" value="2274 460 7228"/>
+    <Property name="orientation" value="0.839893 0 0.54275 0"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="太湖/木人巷锁链.mesh"/>
+    <Property name="position" value="-6400 -550 -8700"/>
+    <Property name="orientation" value="0.348418 0 0.937339 0"/>
+  </Object>
+
+  <Object type="TerrainLiquid">
+    <Property name="material" value="岩浆1"/>
+    <Property name="position" value="-2058.57 46.6979 -928.905"/>
+    <Property name="texture scale" value="0.3"/>
+    <Property name="depth texture layer.enable" value="true"/>
+  </Object>
+
+  <Object type="StaticEntity">
+    <Property name="mesh name" value="明教/明教建筑堵头(1).mesh"/>
+    <Property name="position" value="-400 -200 -9400"/>
+    <Property name="orientation" value="0.707107 0 0.707107 0"/>
+  </Object>
+
+</Scene>

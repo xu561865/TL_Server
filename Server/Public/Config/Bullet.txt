@@ -1,0 +1,45 @@
+INT	INT	INT	STRING	STRING	FLOAT	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+ID	轨迹类型	预留	子弹飞行特效ID	飞行音效ID	速度(m/s)	子弹爆炸特效ID	爆炸音效ID	击中特效的绑定点	预留1	预留2	预留3	预留4	预留5	描述
+1	0	0	g01_zd_yueluoxishan		20	all_bj05		身体受击点						月落西山
+2	0	0	g01_zd_huanpeigunhun		20	all_bj04		身体受击点						环佩归魂
+3	2	0			20	g01_zdo_tiesuohengjiang		身体受击点						铁索横江
+4	1	0	g01_zd_jiuyinbaiguzhao		20	g01_zdo_jiuyinbaiguzhao		身体受击点						九阴白骨爪
+5	2	0			20	g01_zdo_ningjingzhiyu		身体受击点						宁静之雨
+6	1	0	g01_zd_baihongguanri		20									白虹贯日
+7	0	0	g01_zd_dakuixing		20									大魁星
+8	0	0	g01_zd_danfengchaoyang		20	g01_zdo_danfengchaoyang		身体受击点						丹凤朝阳
+9	0	0	g01_zd_gaotanma		20									高探马
+10	0	0	g01_zd_haoyueqianli		20	all_bj02		身体受击点						皓月千里
+11	0	0	g01_zd_huifengbiliu		20	all_bj02		身体受击点						回风拂柳
+12	0	0	g01_zd_jiaotoulaner		20			身体受击点						焦头烂额
+13	0	0	g01_zd_kuaihuosan		20	g01_zdo_taiyisancai		身体受击点						快活三
+14	1	0			20									揽雀尾
+15	0	0	g01_zd_lanshadu		20	g01_zdo_lanshadu		身体受击点						蓝砂毒
+16	0	0	g01_zd_lvshuangbingzhi		20	all_bj05		身体受击点						履霜冰至
+17	0	0	g01_zd_rufengsibi		20									如封似闭
+18	0	0	g01_zd_sanhuantaoyue		20	all_bj06		身体受击点						三环套月
+19	0	0	g01_zd_shaoshangjian		20	g01_zdo_shaoshangjian		身体受击点						少商剑
+20	0	0	g01_zd_shaungfengguaner		20									双峰灌耳
+21	0	0	g01_zd_simianchuge		20									四面楚歌
+22	0	0	g01_zd_tuonidaishui		20									拖泥带水
+23	0	0	g01_zd_wangyangxingtan		20									望洋兴叹
+24	0	0	g01_zd_xianrenzhilu		20									仙人指路
+25	0	0	g01_zd_xiaokouchangkai		20									笑口常开
+26	0	0	g01_zd_yanaimangmang		20									烟霭茫茫
+27	0	0	g01_zd_yemafenzong		20									野马分鬃
+28	2	0			20	g01_zdo_fushidu		脚下光圈点						腐尸毒
+29	2	0			20	g01_zdo_eguangmanying		身体受击点						恶贯满盈
+30	2	0			20	g01_zdo_lianzhufushidu		脚下光圈点						连珠腐尸毒
+31	2	0			20	g01_yunvchuansuo		身体受击点						玉女穿梭
+32	0	0			20	g01_xiaolicangdao		身体受击点						笑里藏刀
+33	0	0			20	g01_yihuajiemu		身体受击点						移花接木
+34	0	0			20	g01_xiaoyujieyi_01		身体受击点						笑语解颐
+35	0	0	g01_zd_lvshuangbingzhi		20			身体受击点						寒冰咒
+36	0	0	g01_zd_gaotanma		20			身体受击点						烈火咒
+37	0	0	g01_zd_lanshadu		20			身体受击点						血毒咒
+38	0	0	g01_zd_rufengsibi		20			身体受击点						霹雷咒
+39	2	0			20	cw_zd_jibingningsha		身体受击点						极冰凝杀
+40	2	0			20	cw_zd_jiehuofensha		身体受击点						劫火焚杀
+41	2	0			20	cw_zd_jiuleijisha		身体受击点						九雷击杀
+42	2	0			20	cw_zd_fudushisha		身体受击点						腐毒蚀杀
+43	0	0	npc_yuancheng		20	g01_zdo_eguangmanying		身体受击点						NPC远程

@@ -1,0 +1,8 @@
+[System]
+navmapname=juxian.nav
+monsterfile=juxian_monster.ini
+patrolpoint=juxian_patrolpoint.ini
+growpointdata=juxian_growpoint.txt
+growpointsetup=juxian_growpointsetup.txt
+eventfile=juxian_area.ini
+petfile=juxian_pet.ini

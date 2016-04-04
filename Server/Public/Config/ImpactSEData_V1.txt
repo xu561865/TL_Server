@@ -1,0 +1,245 @@
+INT	INT	INT	STRING	STRING	STRING	STRING	STRING	STRING	STRING	INT	INT	INT	INT	INT	STRING	STRING
+ID	分类 ID（互斥用）	PRI优先级	图标文件名	触发特效ID	触发特效的音效ID	触发特效的绑定点	持续性特效ID	持续特效的音效ID	持续性特效的绑定点	死后是否保留	是否可以被技能驱散	是否是负面效果	是否可以被手动取消	是否为线性特效	线性特效的绑定点	效果说明
+1	1	0	FightSkillShaoLin1_6				g01_buff2		身体受击点	0	1	1	0	0		韦陀杵：持续掉血
+2	2	0	FightSkillShaoLin1_7				npc_buff_19		身体受击点	0	1	1	0	0		中毒：持续掉血
+3	3	0	FightSkillXinXiu1_12				g01_buff32		身体受击点	0	1	1	0	0		含沙射影：持续掉血
+4	4	0	FightSkillShaoLin1_9				g01_buff36		身体受击点	0	1	1	0	0		灼烧：持续掉血
+5	5	0	FightSkillShaoLin1_10				g01_buff46_01		身体受击点	0	1	1	0	0		噬血：持续掉血
+6	6	0	FightSkillShaoLin1_11				npc_buff_19		身体受击点	0	1	1	0	0		兽毒：持续掉血
+7	7	0	FightSkillWuDang1_5							0	0	1	0	1	身体受击点	泄气：持续减气
+8	8	0	FightSkillXinXiu1_14							0	0	1	0	1	身体受击点	安抚：持续减怒
+9	9	0	Medicine2_5							0	0	0	1	0		回血：持续回血
+10	10	0	Medicine2_6							0	0	0	1	0		回气：持续回气
+11	11	0	FightSkillXinXiu1_6				g01_buff42		身体受击点	0	1	1	0	0		围困：移动不能，操作不能，不可被攻击
+12	12	0	FightSkillXinXiu1_7							0	1	1	0	0		石化：移动不能，操作不能，不可被攻击
+13	13	0	FightSkillXinXiu1_8				npc_buff_01		身体受击点	0	1	1	0	0		封穴：移动不能，操作不能，可被攻击,无法被打醒
+14	14	0	FightSkillXinXiu1_10				npc_buff_02		头顶状态点	0	1	1	0	0		麻痹：移动不能，操作不能，可被攻击,无法被打醒
+15	15	0	FightSkillXinXiu1_11				g01_buff102		头顶状态点	0	1	1	0	0		昏迷：移动不能，操作不能，可被攻击,可被打醒
+16	16	0	FightSkillXinXiu1_12				g01_buff38		头顶状态点	0	1	1	0	0		失魂：移动不能，操作不能，可被攻击,可被打醒
+17	17	0	FightSkillXinXiu1_13				npc_buff_06		头顶状态点	0	1	1	0	0		失明：随机移动，操作不能,可被攻击,无法被打醒
+18	18	0	FightSkillXinXiu1_14				npc_buff_07		头顶状态点	0	1	1	0	0		恐惧：随机移动，操作不能,可被攻击,无法被打醒
+19	19	0	FightSkillXinXiu1_15				g01_buff27		脚下光圈点	0	1	1	0	0		定身：无法移动
+20	20	0	FightSkillXinXiu2_13				npc_buff_09		脚下光圈点	0	1	1	0	0		缠绕：无法移动
+21	21	0	FightSkillDaLi_5	g01_buff41		身体受击点	g01_buff45		头顶状态点	0	1	1	0	0		散功：无法使用任何门派技能
+22	22	0	FightSkillDaLi_7	npc_buff_10		身体受击点	g01_buff34		头顶状态点	0	1	1	0	0		就擒：无法使用任何门派技能
+23	23	0	FightSkillDaLi_6	npc_buff_11		脚下光圈点	g01_buff100		脚下光圈点	0	1	1	0	0		僵硬:移动速度减慢
+24	24	0	FightSkillDaLi_8							0	1	1	0	0		破绽：攻击
+25	25	0	FightSkillDaLi_10							0	1	1	0	0		破绽：防御
+26	26	0	FightSkillDaLi_11							0	1	1	0	0		破绽：攻防
+27	27	0	FightSkillDaLi_12							0	1	1	0	0		破绽：抗性
+28	28	0	FightSkillTianShan_2							0	1	1	0	0		破绽：外功防御
+29	29	0	FightSkillTianShan_3							0	1	1	0	0		破绽：内功防御
+30	30	0	FightSkillTianShan_4							0	1	1	0	0		破绽：玄防御
+31	31	0	FightSkillTianShan_5							0	1	1	0	0		破绽：毒防御
+32	32	0	FightSkillMingJiao_8							0	1	1	0	0		虚弱：血上限
+33	33	0	FightSkillXiaoYao_11							0	1	1	0	0		虚弱：气上限
+34	34	0	FightSkillTianShan_9							0	1	1	0	0		虚弱：力量
+35	35	0	FightSkillTianShan_10							0	1	1	0	0		虚弱：灵气
+36	36	0	FightSkillTianShan_12							0	1	1	0	0		虚弱：体力
+37	37	0	FightSkillTianShan_13							0	1	1	0	0		虚弱：定力
+38	38	0	FightSkillTianShan_14							0	1	1	0	0		虚弱：身法
+39	39	0	FightSkillTianShan_15							0	0	0	1	0		强化:外功攻击
+40	40	0	FightSkillXiaoYao_5							0	0	0	1	0		强化:内功攻击
+41	41	0	FightSkillXiaoYao_6							0	0	0	1	0		强化:外攻防御
+42	42	0	FightSkillXiaoYao_7							0	0	0	1	0		强化:内功防御
+43	43	0	FightSkillXiaoYao_9							0	0	0	1	0		强化:攻击
+44	44	0	FightSkillXiaoYao_10							0	0	0	1	0		强化:防御
+45	45	0	FightSkillXiaoYao_11							0	0	0	1	0		强化:攻防
+46	46	0	FightSkillXiaoYao_13							0	0	0	1	0		强化:抗性
+47	47	0	FightSkillXiaoYao_15							0	0	0	1	0		强化:冰防御
+48	48	0	FightSkillXinXiu1_5							0	0	0	1	0		强化:火防御
+49	49	0	FightSkillXinXiu1_16							0	0	0	1	0		强化:毒防御
+50	50	0	FightSkillWuDang1_6							0	0	0	1	0		强化:玄防御
+51	51	0	FightSkillWuDang1_12	cw_jieli		头顶状态点				0	0	0	1	0		强化:力量
+52	52	0	FightSkillWuDang1_14	cw_ningshen		头顶状态点				0	0	0	1	0		强化:灵气
+53	53	0	FightSkillWuDang1_10	cw_qiangshen		头顶状态点				0	0	0	1	0		强化:体力
+54	54	0	FightSkillWuDang1_7	cw_yihun		头顶状态点				0	0	0	1	0		强化:定力
+55	55	0	FightSkillShaoLin1_8	cw_jiasu		头顶状态点				0	0	0	1	0		强化:身法
+56	56	0	FightSkillTianShan_12							0	0	0	1	0		强化:命中
+57	57	0	FightSkillWuDang1_5							0	0	0	1	0		强化:闪避
+58	58	0	FightSkillWuDang1_15							0	0	0	1	0		强化:会心
+59	59	0	FightSkillWuDang1_16							0	0	0	1	0		强化:血上限
+60	60	0	FightSkillWuDang2_16							0	0	0	1	0		增强:外功攻击
+61	61	0	FightSkillXinXiu1_6							0	0	0	1	0		增强:内功攻击
+62	62	0	FightSkillXinXiu1_7							0	0	0	1	0		增强:外攻防御
+63	63	0	FightSkillXinXiu1_8							0	0	0	1	0		增强:内功防御
+64	64	0	FightSkillXinXiu1_10							0	0	0	1	0		增强:冰攻击
+65	65	0	FightSkillXinXiu1_11							0	0	0	1	0		增强:火攻击
+66	66	0	FightSkillXinXiu1_12							0	0	0	1	0		增强:毒攻击
+67	67	0	FightSkillXinXiu1_13							0	0	0	1	0		增强:玄攻击
+68	68	0	FightSkillXinXiu1_14							0	0	0	1	0		增强:冰防御
+69	69	0	FightSkillXinXiu1_15							0	0	0	1	0		增强:火防御
+70	70	0	FightSkillXinXiu2_13							0	0	0	1	0		增强:毒防御
+71	71	0	FightSkillDaLi_5							0	0	0	1	0		增强:玄防御
+72	72	0	FightSkillDaLi_7							0	0	0	1	0		增强:力量
+73	73	0	FightSkillDaLi_6							0	0	0	1	0		增强:灵气
+74	74	0	FightSkillDaLi_8							0	0	0	1	0		增强:体力
+75	75	0	FightSkillDaLi_10							0	0	0	1	0		增强:定力
+76	76	0	FightSkillDaLi_11							0	0	0	1	0		增强:身法
+77	77	0	FightSkillDaLi_12							0	0	0	1	0		增强:命中
+78	78	0	FightSkillTianShan_2							0	0	0	1	0		增强:闪避
+79	79	0	FightSkillTianShan_3							0	0	0	1	0		增强:会心
+80	80	0	FightSkillTianShan_4							0	0	0	1	0		增强:血上限
+81	81	0	FightSkillTianShan_5							0	0	0	1	0		抵抗:开膛
+82	82	0	FightSkillMingJiao_8							0	0	0	1	0		抵抗:石化
+83	83	0	FightSkillXiaoYao_11							0	0	0	1	0		抵抗:麻痹
+84	84	0	FightSkillTianShan_9							0	0	0	1	0		抵抗:恐惧
+85	85	0	FightSkillTianShan_10							0	0	0	1	0		抵抗:缠绕
+86	86	0	FightSkillTianShan_12							0	0	0	1	0		抵抗:噬血
+87	87	0	FightSkillTianShan_13							0	0	0	1	0		抵抗:兽毒
+88	88	0	FightSkillTianShan_14							0	0	0	1	0		抵抗:失魂
+89	89	0	FightSkillTianShan_15							0	0	0	1	0		抵抗:就擒
+90	90	0	FightSkillXiaoYao_5							0	0	0	1	0		抵抗:散功
+91	91	0	FightSkillXiaoYao_6							0	0	0	1	0		抵抗:围困
+92	92	0	FightSkillXiaoYao_7							0	0	0	1	0		抵抗:昏迷
+93	93	0	FightSkillXiaoYao_9							0	0	0	1	0		抵抗:封穴
+94	94	0	FightSkillXiaoYao_10							0	0	0	1	0		抵抗:失明
+95	95	0	FightSkillXiaoYao_11							0	0	0	1	0		抵抗:定身
+96	96	0	FightSkillGaiBang_16							0	0	0	1	0		抱残守缺：增加血上限
+97	97	0	FightSkillWuDang1_15							0	0	0	1	0		大魁星：增加会心
+98	98	0	FightSkillShaoLin1_9				g01_buff4_01		脚下光圈点	0	0	0	1	0		罗汉阵：增加外功防御
+99	99	0	FightSkillXiaoYao_13							0	0	0	1	0		初级隐身
+100	100	0	FightSkillShaoLin1_7							0	0	0	1	0		铁布衫：提高怒气转换和会心
+101	101	0	FightSkillShaoLin1_11							0	0	0	1	0		慈航普渡：增加抗性
+102	100	0	FightSkillShaoLin1_12				g01_buff5		身体中心点	0	0	0	1	0		礼敬如来：反射伤害
+103	103	0	FightSkillShaoLin1_13				g01_buff6		脚下光圈点	0	0	0	1	0		一苇渡江：增加移动速度，攻击打消对方一次怒气
+104	104	0	FightSkillShaoLin1_14							0	0	0	1	0		气贯全身：下次攻击伤害放大
+105	105	0	FightSkillShaoLin1_15							0	0	0	1	0		摩诃无量：强化伏虎拳
+106	106	0	FightSkillShaoLin1_16							0	0	0	1	0		多罗叶指：强化韦陀杵的持续减血
+107	107	0	FightSkillShaoLin2_16				g01_buff7		身体中心点	0	0	0	1	0		金钟罩：伤害减免
+108	108	0	FightSkillMingJiao_5				g01_buff8		脚下光圈点	0	0	0	1	0		五星连珠：牺牲防御加强攻击
+109	108	0	FightSkillMingJiao_7				g01_buff9		脚下光圈点	0	0	0	1	0		七星落长空：增加会心
+110	110	0	FightSkillMingJiao_8				g01_buff10		脚下光圈点	0	0	0	1	0		神行百变：增加移动速度
+111	108	0	FightSkillMingJiao_12				g01_buff11		脚下光圈点	0	0	0	1	0		怒发冲冠：牺牲抗性来提高怒气转换
+112	112	0	FightSkillMingJiao_14							0	0	0	1	0		义愤填膺：增加下次狂暴状态的持续时间
+113	113	0	FightSkillGaiBang_5							0	0	0	1	0		神龙摆尾：获得三连击段能力
+114	114	0	FightSkillGaiBang_6				g01_buff13		脚下光圈点	0	0	0	1	0		飞龙在天：增加移动速度，攻击时有机会直接获得连击段
+115	115	0	FightSkillGaiBang_9	g01_buff15		头顶状态点				0	0	0	1	0		李代桃僵：死后复活
+116	113	0	FightSkillGaiBang_11							0	0	0	1	0		天下无狗：释放连击段获得额外怒气
+117	117	0	FightSkillWuDang1_12							0	0	0	1	0		游刃有余：加气上限
+118	118	0	FightSkillWuDang1_14				g01_buff51		身体中心点	0	0	0	1	0		虎抱头：吸收并通过攻击反射伤害
+119	118	0	FightSkillWuDang1_7				g01_buff52		身体中心点	0	0	0	1	0		相濡以沫：僵硬近身攻击的敌人并在消失时围困敌人
+120	120	0	FightSkillWuDang1_16				g01_buff29		脚下光圈点	0	0	0	0	0		寒梅映雪：自身无敌，但无法释放技能
+121	121	0	FightSkillWuDang2_16							0	0	0	1	0		真武七截阵：扩大技能的消耗和伤害
+122	122	0	FightSkillEMei1_9				g01_buff18		身体中心点	0	0	0	1	0		冲虚养气：护体，吸收所受伤害，并减少佛光普照所需内力，增强治疗的效果，护体死亡时增加怒气
+123	122	0	FightSkillEMei1_14				g01_buff51		身体中心点	0	0	0	1	0		易筋锻骨：护体吸收所受伤害，并增加自己攻击伤害，护体死亡时打消周围敌人怒气
+124	124	0	FightSkillEMei1_5	g01_buff20		身体受击点				0	0	0	1	0		佛光普照：增加攻击和防御
+125	125	0	FightSkillEMei1_16							0	0	0	1	0		延年益寿：该状态下发动的护体生命值上升
+126	126	0	FightSkillWuDang1_10				g01_zd_lanquewei		身体受击点	0	0	1	0	1	左武器绑定点	揽雀尾：封印，无法移动
+127	127	0	FightSkillXinXiu1_9				g01_xiaolicangdao		身体受击点	0	0	1	0	1	左武器绑定点	笑里藏刀：持续攻击
+130	130	0	FightSkillXinXiu1_5							0	0	0	1	0		饮鸩止渴：下一次技能攻击的伤害放大
+131	131	0	FightSkillXinXiu1_6							0	1	1	0	0		拖泥带水：攻击削弱
+132	132	0	FightSkillXinXiu1_7				g01_buff100		身体受击点	0	1	1	0	0		焦头烂额：抗性削弱
+133	133	0	FightSkillXinXiu1_13							0	1	1	0	0		四面楚歌：防御削弱
+134	134	0	FightSkillXinXiu1_8				g01_yihuajiemu		身体受击点	0	0	1	0	1	左武器绑定点	移花接木：吸血
+135	135	0	FightSkillXinXiu1_11				g01_xiaoyujieyi		身体受击点	0	0	1	0	0		笑语解颐：策反
+136	136	0	FightSkillXinXiu1_14				g01_dairuomuji_03		身体受击点	0	0	1	0	1	左武器绑定点	呆若木鸡：吸怒
+137	137	0	FightSkillXinXiu1_16							0	0	0	1	0		行尸走肉：死后复活
+138	137	0	FightSkillXinXiu2_13				g01_buff36		身体中心点	0	0	0	1	0		恶贯满盈：死后爆炸
+139	139	0	FightSkillMingJiao_9				g01_buff38		头顶状态点	0	0	1	0	0		眩晕：移动不能，操作不能，可被攻击,不可被打醒
+140	15	0	FightSkillDaLi_5				g01_buff102		头顶状态点	0	0	1	0	0		无众生相：昏迷，移动不能，操作不能，可被攻击,可被打醒
+141	141	0	FightSkillDaLi_6	g01_buff39		身体受击点	g01_buff40		头顶状态点	0	0	1	0	0		非枯非荣：标记，被标记者受近近距离射击伤害增加，并增加攻击者怒气增长率
+142	142	0	FightSkillDaLi_7							0	0	0	1	0		金玉满堂：增加命中
+143	21	0	FightSkillDaLi_8	g01_buff41		身体受击点	g01_buff42		身体受击点	0	0	1	0	0		立地成佛：散功，无法使用任何门派技能
+144	144	0	FightSkillDaLi_10				g01_buff400		脚下光圈点	0	0	0	1	0		白驹过隙：增加移动速度
+145	145	0	FightSkillDaLi_11	g01_buff43		身体受击点	g01_buff44		头顶状态点	0	0	1	0	0		少泽剑：标记，被标记者有可能被远距离射击打晕
+146	146	0	FightSkillDaLi_12				g01_buff45		脚下光圈点	0	0	0	1	0		商阳剑：增加会心
+147	147	0	FightSkillDaLi_14							0	0	1	0	0		白虹贯日：稍后将会被高空落下的飞箭击中
+148	99	0	FightSkillTianShan_4							0	0	0	1	0		阳奉阴违：隐身
+149	149	0	FightSkillTianShan_7							0	0	0	1	0		分身
+150	150	0	FightSkillTianShan_9				g01_buff51		身体受击点	0	0	0	1	0		唇亡齿寒：强化分身
+151	99	0	FightSkillTianShan_10							0	0	0	1	0		十面埋伏：隐身
+152	152	0	FightSkillTianShan_13				g01_buff100		身体受击点	0	0	1	0	0		凭虚御风：削弱命中、闪避
+153	153	0	FightSkillTianShan_14				g01_buff47		脚下光圈点	0	0	0	1	0		静影沉璧：增加闪避
+154	99	0	FightSkillTianShan_15							0	0	0	1	0		大象无形：强隐身
+155	155	0	FightSkillTianShan_12							0	0	0	1	0		归去来兮：隐身
+156	156	0	FightSkillXiaoYao_4							0	0	0	1	0		陷阱
+157	26	0	FightSkillXiaoYao_6				g01_buff14		身体受击点	0	0	0	1	0		太乙三才：攻击防御弱化
+158	158	0	FightSkillXiaoYao_8							0	0	0	1	0		火眼金睛：加强侦破陷阱的能力
+159	159	0	FightSkillXiaoYao_9				g01_buff47		脚下光圈点	0	0	0	1	0		众妙之门：增加命中和闪避
+160	160	0	FightSkillXiaoYao_10				g01_buff49		身体受击点	0	0	0	1	0		神光离合：攻击带毒
+161	161	0	FightSkillXiaoYao_11				g01_buff10		脚下光圈点	0	0	0	1	0		凌波微步：增加移动速度
+162	160	0	FightSkillXiaoYao_13				g01_buff8		身体受击点	0	0	0	1	0		欲擒故纵：该状态下布置的陷阱引爆产生的怒气增多
+163	163	0	FightSkillXiaoYao_15							0	0	0	1	0		朝三暮四：该状态布置的陷阱生存期加长
+200	200	0	Ring_6							0	0	0	1	0		心心相印：增加体力
+201	201	0	Ring_7							0	0	0	1	0		不离不弃：增加攻击
+202	202	0	FightSkillWuDang1_16							0	0	0	1	0		师门关怀：增加外功防御
+203	202	0	FightSkillWuDang1_16							0	0	0	1	0		师门关怀：增加外功攻击
+204	202	0	FightSkillWuDang1_16							0	0	0	1	0		师门关怀：增加闪避
+205	202	0	FightSkillWuDang1_16							0	0	0	1	0		师门关怀：增加内功攻击
+206	202	0	FightSkillWuDang1_16							0	0	0	1	0		师门关怀：增加血上限
+207	202	0	FightSkillWuDang1_16							0	0	0	1	0		师门关怀：增加内功防御
+208	202	0	FightSkillWuDang1_16							0	0	0	1	0		师门关怀：增加命中
+209	202	0	FightSkillWuDang1_16							0	0	0	1	0		师门关怀：增加抗性
+210	202	0	FightSkillWuDang1_16							0	0	0	1	0		师门关怀：增加会心
+251	251	0	RideHeader1_13							0	0	0	1	0		坐骑：虎
+252	251	0	RideHeader1_1							0	0	0	1	0		坐骑：黄骠马
+253	251	0	RideHeader1_11							0	0	0	1	0		坐骑：骆驼
+254	251	0	RideHeader2_2							0	0	0	1	0		坐骑：鹤
+255	251	0	RideHeader1_16							0	0	0	1	0		坐骑：青凤
+256	251	0	RideHeader1_3							0	0	0	1	0		坐骑：牦牛
+257	251	0	RideHeader1_5							0	0	0	1	0		坐骑：鹿
+258	251	0	RideHeader1_9							0	0	0	1	0		坐骑：雕
+259	251	0	RideHeader1_7							0	0	0	1	0		坐骑：灰狼
+260	251	0	RideHeader1_14							0	0	0	1	0		坐骑：白虎
+261	251	0	RideHeader1_2							0	0	0	1	0		坐骑：青白骢马
+262	251	0	RideHeader1_12							0	0	0	1	0		坐骑：白骆驼
+263	251	0	RideHeader2_1							0	0	0	1	0		坐骑：金翼鹤
+264	251	0	RideHeader1_15							0	0	0	1	0		坐骑：红白凤
+265	251	0	RideHeader1_4							0	0	0	1	0		坐骑：白牦牛
+266	251	0	RideHeader1_6							0	0	0	1	0		坐骑：白鹿
+267	251	0	RideHeader1_10							0	0	0	1	0		坐骑：白雕
+268	251	0	RideHeader1_8							0	0	0	1	0		坐骑：白狼
+269	269	0	FightSkillDaLi_5							0	0	0	1	0		变身
+270	270	0	PetSkill5_13							0	0	0	1	0		重生：该状态下死后自动复活
+#																
+360	360	0	PetSkill2_13							0	0	0	0	0		冰精：受到冰系伤害减少，火系伤害增加
+361	360	0	PetSkill2_14							0	0	0	0	0		火灵：受到火系伤害减少，冰系伤害增加
+362	360	0	PetSkill3_3							0	0	0	0	0		毒蛊：受到毒系伤害减少，玄系伤害增加
+363	360	0	PetSkill3_8							0	0	0	0	0		玄兽：受到玄系伤害减少，毒系伤害增加
+364	364	0	PetSkill1_7							0	0	0	0	0		迟钝：血上限增加，闪避和命中削弱
+365	364	0	PetSkill3_6							0	0	0	0	0		狡猾：命中和闪避增加，防御削弱
+366	364	0	PetSkill3_7							0	0	0	0	0		憨厚：防御增加，会心削弱
+367	364	0	PetSkill3_5							0	0	0	0	0		拼命：会心增加，血上限削弱
+368	364	0	PetSkill3_9							0	0	0	0	0		法魂：内攻增加，外攻削弱
+369	364	0	PetSkill3_10							0	0	0	0	0		蛮力：外攻增加，内攻削弱
+370	370	0	PetSkill5_13				cw_chongsheng		头顶状态点	0	0	0	0	0		重生：该状态下死后自动复活
+371	370	0	PetSkill5_14				cw_chongsheng		头顶状态点	0	0	0	0	0		高级重生：该状态下死后自动复活
+372	372	0	PetSkill2_9				cw_rouqiang		头顶状态点	0	0	0	0	0		肉墙：将部分伤害转移到宠物身上
+373	372	0	PetSkill2_10				cw_rouqiang		头顶状态点	0	0	0	0	0		高级肉墙：将部分伤害转移到宠物身上
+374	374	0	PetSkill4_1				cw_shengyou		头顶状态点	0	0	0	0	0		神佑：不会受到伤害，也不能攻击敌人
+375	374	0	PetSkill4_2				cw_shengyou		头顶状态点	0	0	0	0	0		高级神佑：不会受到伤害，也不能攻击敌人
+376	376	0	PetSkill2_9				cw_shixue		身体受击点	0	0	0	0	0		嗜血：牺牲防御来暂时提高外功攻击
+377	376	0	PetSkill2_10				cw_shixue		身体受击点	0	0	0	0	0		高级嗜血：牺牲防御来暂时提高外功攻击
+380	380	0	PetSkill5_4				cw_weizhuang		身体受击点	0	0	0	0	0		伪装：宠物伪装起来，不会被攻击，也不能攻击敌人
+381	380	0	PetSkill5_5				cw_weizhuang		身体受击点	0	0	0	0	0		高级伪装：宠物伪装起来，不会被攻击，也不能攻击敌人
+382	382	0	PetSkill2_5				cw_fushen		头顶状态点	0	0	0	0	0		附身：宠物附身于敌人，双方都无法动弹
+383	382	0	PetSkill2_6				cw_fushen		头顶状态点	0	0	0	0	0		高级附身：宠物附身于敌人，双方都无法动弹
+384	384	0	PetSkill1_1	cw_fanji		身体受击点				0	0	0	0	0		反击：受到攻击时一定几率反击敌人
+385	384	0	PetSkill1_2	cw_fanji		身体受击点				0	0	0	0	0		高级反击：受到攻击时一定几率反击敌人
+386	386	0	PetSkill5_15	cw_xixue		身体受击点				0	0	0	0	0		吸血：攻击时一定几率吸取敌人生命
+387	386	0	PetSkill5_16	cw_xixue		身体受击点				0	0	0	0	0		高级吸血：攻击时一定几率吸取敌人生命
+388	388	0	PetSkill1_13	cw_fanzhen		身体受击点				0	0	0	0	0		反震：一定几率将所受的近身伤害反弹回去
+389	388	0	PetSkill1_14	cw_fanzhen		身体受击点				0	0	0	0	0		高级反震：一定几率将所受的近身伤害反弹回去
+390	390	0	PetSkill4_9	cw_lingdong		身体受击点				0	0	0	0	0		灵动：一定几率减少所受的伤害
+391	390	0	PetSkill4_10	cw_lingdong		身体受击点				0	0	0	0	0		高级灵动：一定几率减少所受的伤害
+392	392	0	PetSkill2_7	cw_ximo		身体受击点				0	0	0	0	0		吸气：攻击时一定几率吸走敌人的内力
+393	392	0	PetSkill2_8	cw_ximo		身体受击点				0	0	0	0	0		高级吸气：攻击时一定几率吸走敌人的内力
+394	394	0	PetSkill4_5	cw_danu		脚下光圈点				0	0	0	0	0		打怒：攻击时一定几率打消敌人怒气
+395	394	0	PetSkill4_6	cw_danu		脚下光圈点				0	0	0	0	0		高级打怒：攻击时一定几率打消敌人怒气
+396	396	0	PetSkill5_1	cw_zhongxin		头顶状态点				0	0	0	0	0		忠心：有一定几率替主人格挡必杀攻击
+397	396	0	PetSkill5_2	cw_zhongxin		头顶状态点				0	0	0	0	0		高级忠心：有一定几率替主人格挡必杀攻击
+398	398	0	PetSkill5_3	cw_lingqi		身体受击点				0	0	0	0	0		灵气：有一定几率替主人格挡不良效果
+399	398	0	PetSkill5_4	cw_lingqi		身体受击点				0	0	0	0	0		高级灵气：有一定几率替主人格挡不良效果
+400	400	0	PetSkill5_7	cw_shipo		头顶状态点				0	0	0	0	0		识破：增强主人侦破隐形的能力
+401	400	0	PetSkill5_8	cw_shipo		头顶状态点				0	0	0	0	0		高级识破：增强主人侦破隐形的能力
+402	402	0	PetSkill3_13	cw_jieli		头顶状态点				0	0	0	0	0		借力：增强主人的力量
+403	402	0	PetSkill3_14	cw_jieli		头顶状态点				0	0	0	0	0		高级借力：增强主人的力量
+404	404	0	PetSkill1_5	cw_yihun		头顶状态点				0	0	0	0	0		移魂：增强主人的定力
+405	404	0	PetSkill1_6	cw_yihun		头顶状态点				0	0	0	0	0		高级移魂：增强主人的定力
+406	406	0	PetSkill3_15	cw_jiasu		头顶状态点				0	0	0	0	0		加速：增强主人的身法
+407	406	0	PetSkill3_16	cw_jiasu		头顶状态点				0	0	0	0	0		高级加速：增强主人的身法
+408	408	0	PetSkill1_3	cw_qiangshen		头顶状态点				0	0	0	0	0		强身：增强主人的体力
+409	408	0	PetSkill1_4	cw_qiangshen		头顶状态点				0	0	0	0	0		高级强身：增强主人的体力
+410	410	0	PetSkill3_1	cw_ningshen		头顶状态点				0	0	0	0	0		凝神：增强主人的灵气
+411	410	0	PetSkill3_2	cw_ningshen		头顶状态点				0	0	0	0	0		高级凝神：增强主人的灵气
